@@ -27,10 +27,10 @@ author:
   name             : "Lorenzo Gabriel Stiglaino"
   pronouns         : # example: "she/her"  
   bio              : "Doctoral Candidate in Machine Learning"
-  location         : #
+  location         : # 
   employer         : "University of Oxford"
   uri              : # URL
-  email            : "lorenzo[dot]stigliano[@]bnc.ox.ac.uk" 
+  email            : "lorenzo[dot]stigliano[at]bnc.ox.ac.uk" 
 
   # Academic websites
   academia         : https://www.bdi.ox.ac.uk/Team/lorenzo-stigliano
