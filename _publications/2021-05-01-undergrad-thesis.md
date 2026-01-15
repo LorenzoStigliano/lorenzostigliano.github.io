@@ -8,7 +8,7 @@ date: 2021-05-01
 venue: 'University of Edinburgh'
 slidesurl: 'https://lorenzostigliano.github.io/files/thesis/undergrad_thesis_slides.pdf'
 paperurl: 'https://lorenzostigliano.github.io/files/thesis/undergrad_thesis.pdf'
-citation: "Stigliano, L. G. (2023). <i>Introduction to Inverse Problems and Markov Chain Monte Carlo Methods</i>. Bachelor’s thesis, University of Edinburgh. Supervisor: <b>Teckentrup, A.</b>."
+citation: "L. G. Stigliano, A. Teckentrup (2023). <i>Introduction to Inverse Problems and Markov Chain Monte Carlo Methods</i>. Bachelor’s thesis, University of Edinburgh."
 ---
 In this project we will give a comprehensive introduction to inverse problems and
 Markov chain Monte Carlo methods. We will begin by introducing inverse problems and how to solve them, focusing on the Bayesian inference approach. Then
