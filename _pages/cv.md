@@ -9,7 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
-A full detailed CV can be found [here](https://academicpages.github.io/files/paper2.pdf). 
+A full CV can be found [here](https://academicpages.github.io/files/paper2.pdf).
+I also keep a CV of [failures](https://academicpages.github.io/files/paper2.pdf) — because rejection is part of the process.
 
 Education
 ======
@@ -66,7 +67,7 @@ TODO: best poster for the thingy
   Awarded for exceptional academic achievement in mathematics.
 
 * **King’s College Honorary Scholarship**  
-  Awarded in recognition of outstanding academic performance at AS Level (five A grades).
+  Awarded in recognition of outstanding academic performance at AS Level.
 
 Publications and Theses
 ======
@@ -90,3 +91,7 @@ Skills
 ======
 * Python, Java, SQL, Bash
 * PyTorch, PyTorch Geometric, MLflow, LangChain
+
+Languages
+======
+* Spanish (Native), English (Fluent), Italian (Conversational)
