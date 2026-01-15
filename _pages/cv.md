@@ -58,8 +58,6 @@ Work and research experience
 Awards and Prizes
 ======
 
-TODO: best poster for the thingy
-
 * **University of Edinburgh Class Prize**  
   Awarded to the top-ranked student for the highest overall academic performance across Computer Science and Mathematics.
 
