@@ -19,6 +19,6 @@ main:
     url: /year-archive/
     
   - title: "CV"
-    url: files/paper1.pdf
+    url: /files/paper1.pdf
     target: _blank
 
