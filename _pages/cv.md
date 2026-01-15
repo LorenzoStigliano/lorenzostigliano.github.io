@@ -52,8 +52,11 @@ Work experience
   * Developed a full-stack application automating hardware emulator workflows
   * Implemented RESTful APIs using Flask to ensure scalability and performance
 
-Awards
+Awards and Prizes
 ======
+
+TODO: best poster for the thingy
+
 * **University of Edinburgh Class Prize for Top Performance in Computer Science and Mathematics**  
   Awarded to the top-ranked student for the highest overall academic performance across Computer Science and Mathematics.
 
