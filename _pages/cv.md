@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+A full detailed CV can be found [here](https://academicpages.github.io/files/paper2.pdf). 
+
 Education
 ======
 * D.Phil. (Ph.D.) in Applied Machine Learning, University of Oxford, 2029 (expected)
@@ -66,7 +68,7 @@ TODO: best poster for the thingy
 * **King’s College Honorary Scholarship**  
   Awarded in recognition of outstanding academic performance at AS Level (five A grades).
 
-Publications and Thesis
+Publications and Theses
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
