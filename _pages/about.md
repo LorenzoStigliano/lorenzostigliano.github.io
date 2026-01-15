@@ -16,7 +16,7 @@ I previously worked in industry as a Data Scientist in Applied AI & Machine Lear
 Research
 ======
 
-My background combines theoretical foundations, applied machine learning research, and production-grade system development with my current research interests lying at the intersection of machine learning methodology, data efficiency, and healthcare applications. In particular, I am interested in three central research questions:
+My background integrates strong theoretical foundations with applied machine learning research and production-grade system development, and my current research interests lie at the intersection of machine learning methodology, data efficiency, and healthcare applications. In particular, I focus on three central research questions:
 
 - How can we learn rich, general-purpose representations from heterogeneous and multimodal data, enabling robust generalization beyond the training distribution?
 

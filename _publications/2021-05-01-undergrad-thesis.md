@@ -7,7 +7,7 @@ excerpt: 'This thesis introduces inverse problems and Bayesian inference, develo
 date: 2021-05-01
 venue: 'University of Edinburgh'
 slidesurl: 
-paperurl: 
+paperurl: 'https://lorenzostigliano.github.io/files/thesis/undergrad_thesis.pdf'
 ---
 In this project we will give a comprehensive introduction to inverse problems and
 Markov chain Monte Carlo methods. We will begin by introducing inverse problems and how to solve them, focusing on the Bayesian inference approach. Then
