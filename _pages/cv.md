@@ -69,7 +69,7 @@ TODO: best poster for the thingy
 * **King’s College Honorary Scholarship**  
   Awarded in recognition of outstanding academic performance at AS Level.
 
-Publications and Theses
+Research
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
