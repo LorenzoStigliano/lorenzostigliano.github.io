@@ -1,29 +1,46 @@
 ---
-title: "INF1: Introduction to Computation"
+title: "Algorithms, Data Structures and Learning"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/inf1-introduction-to-computation
+permalink: /teaching/infr08009-informatics-2b
 venue: "University of Edinburgh, School of Informatics"
-date: 2020-09-01
+date: 2020-01-01
 location: "Edinburgh, UK"
 ---
 
-I served as a **Tutor and Marker** for the first-year undergraduate course *INF1: Introduction to Computation* at the University of Edinburgh.  
-The role involved both teaching and assessment responsibilities, providing continuous academic support to students throughout the semester.
+I served as a **Machine Learning Tutor** for [*Algorithms, Data Structures, Learning (INFR08009)*](https://www.drps.ed.ac.uk/18-19/dpt/cxinfr08009.htm), a second-year undergraduate core course in the School of Informatics at the University of Edinburgh. The role involved delivering tutorial instruction and academic support to undergraduate students, reinforcing both theoretical foundations and practical skills.
 
 Responsibilities
 ======
-- Led weekly tutorial sessions, guiding students through problem sets and core theoretical concepts  
-- Provided detailed, formative feedback on coursework and assessments  
-- Supported students’ transition to university-level computer science through one-to-one academic guidance  
+- Led weekly tutorial sessions for second-year undergraduates, supporting problem-solving and conceptual understanding  
+- Delivered course material to two tutorial groups of approximately 10 students each  
+- Provided guidance on coursework, assignments, and exam preparation  
+- Supported students in connecting algorithmic concepts with learning-based methods  
 
-Course Content
+Course Overview
 ======
-The course focused on **functional programming**, with an emphasis on:
-- Functional abstraction and recursion  
-- Type systems and program correctness  
-- Programming in **Haskell**  
+This course introduced **key symbolic and numerical data structures and algorithms**, with learning methods providing a unifying application context.  
+Students extended their programming skills in **Java** and **MATLAB**, with examples drawn from across Informatics.
+
+Core Technical Topics
+======
+
+**1. Algorithms and Data Structures**
+- Asymptotic analysis of algorithms  
+- Sequential data structures  
+- Searching techniques, including hashing, AVL trees, heaps  
+- Sorting algorithms, including mergesort, heapsort, and quicksort  
+- Web-scale algorithms  
+- Graph algorithms and representations  
+
+**2. Learning and Machine Learning**
+- Statistical pattern recognition and machine learning  
+- Multidimensional data analysis  
+- Discrete data and Naive Bayes classifiers  
+- Modelling continuous data: nearest neighbours and clustering  
+- Gaussian models and linear discriminants  
+- Single- and multi-layer neural networks  
 
 Supervision
 ======
-Teaching activities were carried out under the supervision of **Dr. Philip Wadler**.
+Teaching activities were carried out under the supervision of **Dr. Hiroshi Shimodaira**.
