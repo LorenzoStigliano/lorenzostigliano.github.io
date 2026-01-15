@@ -6,7 +6,7 @@ permalink: /publication/2021-05-01-undergrad-thesis
 excerpt: 'This thesis introduces inverse problems and Bayesian inference, develops Markov chain Monte Carlo methods including Metropolis–Hastings and non-reversible samplers, and compares their performance with applications to imaging inverse problems.'
 date: 2021-05-01
 venue: 'University of Edinburgh'
-slidesurl: 
+slidesurl: 'https://lorenzostigliano.github.io/files/thesis/undergrad_thesis_slides.pdf'
 paperurl: 'https://lorenzostigliano.github.io/files/thesis/undergrad_thesis.pdf'
 ---
 In this project we will give a comprehensive introduction to inverse problems and
