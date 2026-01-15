@@ -7,16 +7,24 @@ redirect_from:
   - /about.html
 ---
 
-TODO
+I am a D.Phil. student in Machine Learning for Healthcare at the University of Oxford, funded by the [Engineering and Physical Sciences Research Council (EPSRC)](https://www.ukri.org/councils/epsrc/) [Center for Doctoral Training in Healthcare Data Science](https://www.bdi.ox.ac.uk/study/cdt). My research focuses on developing and deploying advanced machine learning methods for real-world healthcare applications. Before starting at Oxford, I completed an M.Sc. in Artificial Intelligence and Machine Learning at Imperial College London, graduating with distinction.
 
-<!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+Prior to my doctoral studies, I worked in industry as a Data Scientist in Applied AI & Machine Learning at J.P. Morgan Chase & Co., where I designed and optimized end-to-end machine learning systems for large-scale, production environments. My work spanned time-series modelling, representation learning, and retrieval-augmented generation pipelines, with a strong emphasis on scalability, cost efficiency, and real-world impact.
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads! -->
+Alongside industry experience, I have maintained a strong connection to academic research. I worked as a Machine Learning Research Assistant at Imperial College London in the Brain and Signal Analysis Lab, under the supervison of Prof. Islem Rekik, where I developed efficient knowledge distillation methods for graph neural networks, enabling deployment on resource-constrained devices. I completed my B.Sc. in Computer Science and Mathematics at the University of Edinburgh, graduating with First Class Honours and ranking first in my cohort. During my studies, I was actively involved in undergraduate teaching and tutoring in machine learning, data science, and foundational computing courses.
 
 Research
 ======
 
-TODO
+My background combines theoretical foundations, applied machine learning research, and production-grade system development, and my current research interests lie at the intersection of machine learning methodology, data efficiency, and healthcare applications. In particular, I am interested in three central research questions:
+
+ - How can we learn rich, general-purpose representations from heterogeneous and multimodal data, enabling robust generalization beyond the training distribution?
+
+- How can we design machine learning models that are computationally efficient, theoretically grounded, and suitable for deployment in resource-constrained or safety-critical settings?
+
+- How can advanced machine learning methods be applied responsibly to healthcare, enabling earlier detection and better understanding of ageing-related diseases?
+
+I am always keen to collaborate with researchers and practitioners working on machine learning methodology and its applications to healthcare and other high-impact domains. I am particularly interested in interdisciplinary collaborations that bridge theory and practice, and that involve real-world data, deployment challenges, or clinical insight. Please feel free to get in touch if you are interested in collaboration, supervision, or joint research projects.
 
 <!-- Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
