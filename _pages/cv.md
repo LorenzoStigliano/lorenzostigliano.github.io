@@ -15,7 +15,7 @@ Education
 * M.Sc. in Artificial Intelligence & Machine Learning, Imperial College London, 2023
 * B.Sc. in Computer Science and Mathematics, University of Edinburgh, 2021
 
-Work experience
+Work and research experience
 ======
 * Sep 2023 – Sep 2025: Data Scientist (Applied AI & ML)
   * J.P. Morgan Chase & Co., London, UK
@@ -44,7 +44,7 @@ Work experience
 
 * Jun 2020: Undergraduate Research Assistant
   * Centre for Speckled Computing, Edinburgh, UK
-  * Contributed to the **DAPHNE research project** as a member of the Centre for Speckled Computing under the supervision of **Prof. Damal Arvind**
+  * Contributed to the DAPHNE research project as a member of the Centre for Speckled Computing under the supervision of **Prof. Damal Arvind**
   * Investigated potential causal relationships between biomarkers and PM2.5 exposure across multiple test cohorts using statistical hypothesis testing
 
 * Jun 2019 – Jul 2019: Software Engineering Intern
@@ -57,7 +57,7 @@ Awards and Prizes
 
 TODO: best poster for the thingy
 
-* **University of Edinburgh Class Prize for Top Performance in Computer Science and Mathematics**  
+* **University of Edinburgh Class Prize**  
   Awarded to the top-ranked student for the highest overall academic performance across Computer Science and Mathematics.
 
 * **King’s College Class Prize for Mathematics**  
