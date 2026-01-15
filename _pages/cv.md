@@ -24,7 +24,7 @@ Work experience
 
 * Apr 2023 – Sep 2023: Machine Learning Research Assistant 
   * Imperial College London (Brain and Signal Analysis Lab), London, UK
-  * Developed a novel knowledge distillation method for Graph Neural Networks, reducing model parameters by 95%
+  * Developed a novel knowledge distillation method for Graph Neural Networks, reducing model parameters by 95% under the supervision of **Prof. Islem Rekik**
   * Achieved 90% reduction in inference time for edge-deployed models while preserving performance
 
 * Jun 2022 – Aug 2022: Data Scientist Intern
@@ -41,6 +41,11 @@ Work experience
   * Barclays, Glasgow, UK
   * Built AWS-based applications to visualize client relationships, reducing hosting costs by 90%
   * Designed and integrated RESTful APIs to improve data pipeline scalability and reliability
+
+* Jun 2020: Undergraduate Research Assistant
+  * Centre for Speckled Computing, Edinburgh, UK
+  * Contributed to the **DAPHNE research project** as a member of the Centre for Speckled Computing under the supervision of **Prof. Damal Arvind**
+  * Investigated potential causal relationships between biomarkers and PM2.5 exposure across multiple test cohorts using statistical hypothesis testing
 
 * Jun 2019 – Jul 2019: Software Engineering Intern
   * Imagination Technologies, Kings Langley, UK
@@ -78,21 +83,5 @@ Teaching
 
 Skills
 ======
-* Programming Languages
-  * Python, Java, SQL, Bash
-  * R, MATLAB (familiar)
-
-* Machine Learning & Data Science
-  * PyTorch, PyTorch Geometric, Scikit-Learn
-  * Variational Autoencoders, Graph Neural Networks
-  * Hugging Face, LangChain, MLflow
-
-* Data Engineering & Systems
-  * PySpark, Databricks
-  * AWS (S3, EC2, Lambda)
-  * RESTful APIs (Flask, FastAPI)
-
-* Software Engineering
-  * Git, Bitbucket, CI/CD (Jenkins)
-  * Testing frameworks (pytest)
-  * Agile development, SLURM
+* Python, Java, SQL, Bash
+* PyTorch, PyTorch Geometric, MLflow, LangChain
