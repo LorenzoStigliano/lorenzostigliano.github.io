@@ -9,8 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
-A full CV can be found [here](https://academicpages.github.io/files/paper2.pdf).
-I also keep a CV of [failures](https://academicpages.github.io/files/paper2.pdf) - because rejection is part of the process.
+A full CV can be found [here](https://lorenzostigliano.github.io/files/cv/Lorenzo_CV_Full.pdf).
+I also keep a CV of [failures](https://lorenzostigliano.github.io/files/paper1.pdf) - because rejection is part of the process.
 
 Education
 ======
@@ -57,6 +57,9 @@ Work and research experience
 
 Awards and Prizes
 ======
+
+* **Fully Funded Doctoral Studentship EPSRC Centre for Doctoral Training in Healthcare Data Science**  
+  Fully funded studentship to pursue a DPhil in Healthcare Data Science at the University of Oxford.
 
 * **University of Edinburgh Class Prize**  
   Awarded to the top-ranked student for the highest overall academic performance across Computer Science and Mathematics.
