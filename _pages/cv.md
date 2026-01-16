@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 A full CV can be found [here](https://lorenzostigliano.github.io/files/cv/Lorenzo_CV_Full.pdf).
-I also keep a CV of [failures](https://lorenzostigliano.github.io/files/paper1.pdf) - because rejection is part of the process.
+I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Lorenzo_CV_Full_Failures.pdf) - because rejection is part of the process.
 
 Education
 ======
