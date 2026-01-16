@@ -20,25 +20,25 @@ Education
 
 Work and research experience
 ======
-* Sep 2023 – Sep 2025 | Data Scientist | J.P. Morgan | London, UK
+* Sep 2023 – Sep 2025 \| Data Scientist \| J.P. Morgan \| London, UK
   * Developed end-to-end machine learning pipelines for time-series signal prediction
 
-* Apr 2023 – Sep 2023 | Research Assistant | Imperial College London | London, UK
+* Apr 2023 – Sep 2023 \| Research Assistant \| Imperial College London \| London, UK
   * Developed a novel knowledge distillation method for graph neural networks under the supervision of Prof. Islem Rekik
 
-* Jun 2022 – Aug 2022 | Data Scientist Intern | J.P. Morgan | London, UK
+* Jun 2022 – Aug 2022 \| Data Scientist Intern \| J.P. Morgan \| London, UK
   * Led data analytics initiatives using large-scale web data to extract insights for over +1M companies
 
-* Aug 2021 – Jun 2022 | Software Engineer | Barclays | Glasgow, UK
+* Aug 2021 – Jun 2022 \| Software Engineer \| Barclays \| Glasgow, UK
   * Developed full-stack web applications to evaluate QA platform release impacts
 
-* Jul 2020 – Aug 2020 | Software Engineering Intern | Barclays, Glasgow, UK
+* Jul 2020 – Aug 2020 \| Software Engineering Intern \| Barclays \| Glasgow, UK
   * Built AWS-based applications to visualize client relationships
 
-* Jun 2020 | Undergraduate Research Assistant | University of Edinburgh | Edinburgh, UK
+* Jun 2020 \| Undergraduate Research Assistant \| University of Edinburgh \| Edinburgh, UK
   * Contributed to the DAPHNE research project under the supervision of Prof. Damal Arvind
 
-* Jun 2019 – Jul 2019 | Software Engineering Intern | Imagination Technologies | Kings Langley, UK
+* Jun 2019 – Jul 2019 \| Software Engineering Intern \| Imagination Technologies \| Kings Langley, UK
   * Developed a full-stack application automating hardware emulator workflows
 
 Awards and Prizes
