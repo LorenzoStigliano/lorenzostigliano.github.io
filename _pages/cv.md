@@ -45,7 +45,7 @@ Awards and Prizes
 ======
 
 * **Fully Funded Doctoral Studentship EPSRC Centre for Doctoral Training in Healthcare Data Science**  
-  Fully funded studentship to pursue a DPhil in Healthcare Data Science at the University of Oxford.
+  Competitive award supporting doctoral training and research in Healthcare Data Science at the University of Oxford.
 
 * **University of Edinburgh Class Prize**  
   Awarded to the top-ranked student for the highest overall academic performance across Computer Science and Mathematics.
