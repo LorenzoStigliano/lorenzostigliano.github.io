@@ -8,7 +8,7 @@ date: 2020-09-01
 location: "Edinburgh, UK"
 ---
 
-I served as a **Tutor and Marker** for [*Introduction to Computation (INFR08025)*](https://www.drps.ed.ac.uk/18-19/dpt/cxinfr08009.htm), a first-year undergraduate core course in the School of Informatics at the University of Edinburgh.
+I served as a **Tutor and Marker** for [*Introduction to Computation (INFR08025)*](https://www.drps.ed.ac.uk/18-19/dpt/cxinfr08025.htm), a first-year undergraduate core course in the School of Informatics at the University of Edinburgh.
 
 Responsibilities
 ======
