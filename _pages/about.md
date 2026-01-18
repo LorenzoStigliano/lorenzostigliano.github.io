@@ -18,4 +18,4 @@ My research focuses on learning robust, general-purpose representations from het
 
 I am always keen to collaborate with researchers and practitioners working on machine learning methodology and its applications to healthcare and other high-impact domains. I am particularly interested in collaborations that bridge theory and practice. Please feel free to get in touch if you are interested in working with me!
 
-[See my Research →](/research/)
+[Learn more about my research →](/research/)
