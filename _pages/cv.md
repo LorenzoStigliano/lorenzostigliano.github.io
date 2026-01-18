@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Bio"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -8,6 +8,10 @@ redirect_from:
 ---
 
 {% include base_path %}
+
+Before starting at Oxford, I completed my B.Sc. in Computer Science and Mathematics at the [University of Edinburgh](https://www.ed.ac.uk/), graduating with First Class Honours and ranking first in my cohort. Followed by an M.Sc. in Artificial Intelligence and Machine Learning at [Imperial College London](https://www.iperial.ac.uk/), graduating with distinction. Here I worked as a Research Assistant in the [Brain and Signal Analysis Lab](https://basira-lab.com/) where I developed computationally efficient knowledge distillation methods for graph neural networks. During my studies, I was actively involved in undergraduate teaching and tutoring in machine learning, data science, and foundational computing courses.
+
+I have also worked in industry as a Data Scientist in the Applied AI & Machine Learning team at [J.P. Morgan](https://www.jpmorgan.com/insights/technology/artificial-intelligence), where I designed, implemented, and optimized end-to-end machine learning systems deployed in large-scale production environments. My work spanned time-series modelling, representation learning, and retrieval-augmented generation pipelines. 
 
 A full CV can be found [here](https://lorenzostigliano.github.io/files/cv/Lorenzo_CV_Full.pdf).
 I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Lorenzo_CV_Full_Failures.pdf) - because rejection is part of the process.
@@ -24,7 +28,7 @@ Work and research experience
   * Developed end-to-end machine learning pipelines for time-series signal prediction
 
 * Apr 2023 – Sep 2023 \| Research Assistant \| Imperial College London \| London, UK
-  * Developed a novel knowledge distillation method for graph neural networks under the supervision of Prof. Islem Rekik
+  * Developed a novel knowledge distillation method for graph neural networks
 
 * Jun 2022 – Aug 2022 \| Data Scientist Intern \| J.P. Morgan \| London, UK
   * Led data analytics initiatives using large-scale web data to extract insights for over +1M companies
@@ -36,7 +40,7 @@ Work and research experience
   * Built AWS-based applications to visualize client relationships
 
 * Jun 2020 \| Undergraduate Research Assistant \| University of Edinburgh \| Edinburgh, UK
-  * Contributed to the DAPHNE research project under the supervision of Prof. Damal Arvind
+  * Contributed to the DAPHNE research project
 
 * Jun 2019 – Jul 2019 \| Software Engineering Intern \| Imagination Technologies \| Kings Langley, UK
   * Developed a full-stack application automating hardware emulator workflows
