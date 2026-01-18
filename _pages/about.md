@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a D.Phil. candidate in Applied Machine Learning at the [University of Oxford](https://www.ox.ac.uk/), funded by the [Engineering and Physical Sciences Research Council (EPSRC)](https://www.ukri.org/councils/epsrc/) [Center for Doctoral Training in Healthcare Data Science](https://www.bdi.ox.ac.uk/study/cdt) working at the intersection of representation learning, model efficiency, and healthcare applications.
+I am a D.Phil. candidate in Applied Machine Learning at the [University of Oxford](https://www.ox.ac.uk/), funded by the [Engineering and Physical Sciences Research Council (EPSRC)](https://www.ukri.org/councils/epsrc/) [Center for Doctoral Training in Healthcare Data Science](https://www.bdi.ox.ac.uk/study/cdt) working at the intersection of machine learning and healthcare applications.
 
 [See my CV →](/bio/)
 
