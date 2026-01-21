@@ -36,8 +36,6 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
 </div>
 - Developed end-to-end machine learning pipelines for time-series signal prediction  
 
----
-
 <div style="display:flex; justify-content:space-between;">
   <strong>Imperial College London</strong>
   <span><em>Apr 2023 – Sep 2023</em></span>
@@ -47,8 +45,6 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
   <span>London, UK</span>
 </div>
 - Developed a novel knowledge distillation method for graph neural networks  
-
----
 
 <div style="display:flex; justify-content:space-between;">
   <strong>J.P. Morgan</strong>
@@ -60,8 +56,6 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
 </div>
 - Led data analytics initiatives using large-scale web data to extract insights for over 1M+ companies  
 
----
-
 <div style="display:flex; justify-content:space-between;">
   <strong>Barclays</strong>
   <span><em>Aug 2021 – Jun 2022</em></span>
@@ -71,8 +65,6 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
   <span>Glasgow, UK</span>
 </div>
 - Developed full-stack web applications to evaluate QA platform release impacts  
-
----
 
 <div style="display:flex; justify-content:space-between;">
   <strong>Barclays</strong>
@@ -84,8 +76,6 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
 </div>
 - Built AWS-based applications to visualize client relationships  
 
----
-
 <div style="display:flex; justify-content:space-between;">
   <strong>University of Edinburgh</strong>
   <span><em>Jun 2020</em></span>
@@ -95,8 +85,6 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
   <span>Edinburgh, UK</span>
 </div>
 - Contributed to the DAPHNE research project  
-
----
 
 <div style="display:flex; justify-content:space-between;">
   <strong>Imagination Technologies</strong>
