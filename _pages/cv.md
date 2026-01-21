@@ -122,6 +122,13 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
 * **King’s College Honorary Scholarship**  
   Awarded in recognition of outstanding academic performance at AS Level.
 
+<!-- ## Skills
+* Python, Java, SQL, Bash
+* PyTorch, PyTorch Geometric, MLflow, LangChain
+
+## Languages
+* Spanish (Native), English (Fluent), Italian (Conversational) -->
+
 ## Research
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
