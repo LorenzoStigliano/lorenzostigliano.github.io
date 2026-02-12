@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Currently a D.Phil. candidate in Applied Machine Learning at the University of Oxford working in the intersection of representation learning, model efficiency, and healthcare applications. Before starting at Oxford, I completed my B.Sc. in Computer Science and Mathematics at the [University of Edinburgh](https://www.ed.ac.uk/), graduating with First Class Honours and ranking first in my cohort. Followed by an M.Sc. in Artificial Intelligence and Machine Learning at [Imperial College London](https://www.iperial.ac.uk/), graduating with distinction. Here I worked as a Research Assistant in the [Brain and Signal Analysis Lab](https://basira-lab.com/) where I developed computationally efficient knowledge distillation methods for graph neural networks. During my studies, I was actively involved in undergraduate teaching and tutoring in machine learning, data science, and foundational computing courses.
+Currently a D.Phil. candidate in Machine Learning at the University of Oxford working in the intersection of representation learning and healthcare applications. Before starting at Oxford, I completed my B.Sc. in Computer Science and Mathematics at the [University of Edinburgh](https://www.ed.ac.uk/), graduating with First Class Honours and ranking first in my cohort. Followed by an M.Sc. in Artificial Intelligence and Machine Learning at [Imperial College London](https://www.iperial.ac.uk/), graduating with distinction. Here I worked as a Research Assistant in the [Brain and Signal Analysis Lab](https://basira-lab.com/) where I developed computationally efficient knowledge distillation methods for graph neural networks. During my studies, I was actively involved in undergraduate teaching and tutoring in machine learning, data science, and foundational computing courses.
 
 I have also worked in industry as a Data Scientist in the Applied AI & Machine Learning team at [J.P. Morgan](https://www.jpmorgan.com/insights/technology/artificial-intelligence), where I designed, implemented, and optimized end-to-end machine learning systems deployed in large-scale production environments. My work spanned time-series modelling, representation learning, and retrieval-augmented generation pipelines. 
 
@@ -20,7 +20,7 @@ A full CV can be found [here](https://lorenzostigliano.github.io/files/cv/Lorenz
 I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Lorenzo_CV_Full_Failures.pdf) - because rejection is part of the process.
 
 ## Education
-* D.Phil. (Ph.D.) in Applied Machine Learning, University of Oxford, 2029
+* D.Phil. (Ph.D.) in Machine Learning, University of Oxford, 2029
 * M.Sc. in Artificial Intelligence & Machine Learning, Imperial College London, 2023
 * B.Sc. in Computer Science & Mathematics, University of Edinburgh, 2021
 
