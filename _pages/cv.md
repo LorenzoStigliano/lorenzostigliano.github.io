@@ -24,75 +24,75 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
 
 ## Work and research experience
 
-<div style="display:flex; justify-content:space-between;">
-  <strong>J.P. Morgan</strong>
-  <span><em>Sep 2023 – Sep 2025</em></span>
-</div>
-<div style="display:flex; justify-content:space-between;">
-  <span>Data Scientist</span>
-  <span>London, UK</span>
-</div>
-- Developed end-to-end machine learning pipelines for time-series signal prediction  
+  <div style="display:flex; justify-content:space-between;">
+    <strong>J.P. Morgan</strong>
+    <span><em>Sep 2023 - Sep 2025</em></span>
+  </div>
+  <div style="display:flex; justify-content:space-between;">
+    <span>Data Scientist</span>
+    <span>London, UK</span>
+  </div>
+- Developed end-to-end machine learning pipelines for time-series signal prediction
 
-<div style="display:flex; justify-content:space-between;">
-  <strong>Imperial College London</strong>
-  <span><em>Apr 2023 – Sep 2023</em></span>
-</div>
-<div style="display:flex; justify-content:space-between;">
-  <span>Research Assistant</span>
-  <span>London, UK</span>
-</div>
-- Developed a novel knowledge distillation method for graph neural networks  
+  <div style="display:flex; justify-content:space-between;">
+    <strong>Imperial College London</strong>
+    <span><em>Apr 2023 - Sep 2023</em></span>
+  </div>
+  <div style="display:flex; justify-content:space-between;">
+    <span>Research Assistant</span>
+    <span>London, UK</span>
+  </div>
+- Developed a novel knowledge distillation method for graph neural networks
 
-<div style="display:flex; justify-content:space-between;">
-  <strong>J.P. Morgan</strong>
-  <span><em>Jun 2022 – Aug 2022</em></span>
-</div>
-<div style="display:flex; justify-content:space-between;">
-  <span>Data Scientist Intern</span>
-  <span>London, UK</span>
-</div>
-- Led data analytics initiatives using large-scale web data to extract insights for over 1M+ companies  
+  <div style="display:flex; justify-content:space-between;">
+    <strong>J.P. Morgan</strong>
+    <span><em>Jun 2022 - Aug 2022</em></span>
+  </div>
+  <div style="display:flex; justify-content:space-between;">
+    <span>Data Scientist Intern</span>
+    <span>London, UK</span>
+  </div>
+- Led data analytics initiatives using large-scale web data to extract insights for over 1M companies
 
-<div style="display:flex; justify-content:space-between;">
-  <strong>Barclays</strong>
-  <span><em>Aug 2021 – Jun 2022</em></span>
-</div>
-<div style="display:flex; justify-content:space-between;">
-  <span>Software Engineer</span>
-  <span>Glasgow, UK</span>
-</div>
-- Developed full-stack web applications to evaluate QA platform release impacts  
+  <div style="display:flex; justify-content:space-between;">
+    <strong>Barclays</strong>
+    <span><em>Aug 2021 - Jun 2022</em></span>
+  </div>
+  <div style="display:flex; justify-content:space-between;">
+    <span>Software Engineer</span>
+    <span>Glasgow, UK</span>
+  </div>
+- Developed full-stack web applications to evaluate QA platform release impacts
 
-<div style="display:flex; justify-content:space-between;">
-  <strong>Barclays</strong>
-  <span><em>Jul 2020 – Aug 2020</em></span>
-</div>
-<div style="display:flex; justify-content:space-between;">
-  <span>Software Engineering Intern</span>
-  <span>Glasgow, UK</span>
-</div>
-- Built AWS-based applications to visualize client relationships  
+  <div style="display:flex; justify-content:space-between;">
+    <strong>Barclays</strong>
+    <span><em>Jul 2020 - Aug 2020</em></span>
+  </div>
+  <div style="display:flex; justify-content:space-between;">
+    <span>Software Engineering Intern</span>
+    <span>Glasgow, UK</span>
+  </div>
+- Built AWS-based applications to visualize client relationships
 
-<div style="display:flex; justify-content:space-between;">
-  <strong>University of Edinburgh</strong>
-  <span><em>Jun 2020</em></span>
-</div>
-<div style="display:flex; justify-content:space-between;">
-  <span>Undergraduate Research Assistant</span>
-  <span>Edinburgh, UK</span>
-</div>
-- Contributed to the DAPHNE research project  
+  <div style="display:flex; justify-content:space-between;">
+    <strong>University of Edinburgh</strong>
+    <span><em>Jun 2020</em></span>
+  </div>
+  <div style="display:flex; justify-content:space-between;">
+    <span>Undergraduate Research Assistant</span>
+    <span>Edinburgh, UK</span>
+  </div>
+- Contributed to the DAPHNE research project
 
-<div style="display:flex; justify-content:space-between;">
-  <strong>Imagination Technologies</strong>
-  <span><em>Jun 2019 – Jul 2019</em></span>
-</div>
-<div style="display:flex; justify-content:space-between;">
-  <span>Software Engineering Intern</span>
-  <span>Kings Langley, UK</span>
-</div>
-- Developed a full-stack application automating hardware emulator workflows  
+  <div style="display:flex; justify-content:space-between;">
+    <strong>Imagination Technologies</strong>
+    <span><em>Jun 2019 - Jul 2019</em></span>
+  </div>
+  <div style="display:flex; justify-content:space-between;">
+    <span>Software Engineering Intern</span>
+    <span>Kings Langley, UK</span>
+  </div>
+- Developed a full-stack application automating hardware emulator workflows
 
 ## Awards and Prizes
 
@@ -130,4 +130,3 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-
