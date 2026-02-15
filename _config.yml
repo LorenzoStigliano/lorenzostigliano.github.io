@@ -25,8 +25,8 @@ author:
   # Biographic information
   avatar           : "cdt_picture.png"
   name             : "Lorenzo Stiglaino"
-  pronouns         : # example: "she/her"  
-  bio              : "Doctoral Candidate in Machine Learning"
+  pronouns         : # example: "she/her"
+  bio              : "Doctoral candidate"
   location         : # 
   employer         : "University of Oxford"
   uri              : # URL

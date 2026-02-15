@@ -18,9 +18,9 @@ A full CV can be found [here](https://lorenzostigliano.github.io/files/cv/Lorenz
 I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Lorenzo_CV_Full_Failures.pdf) - because rejection is part of the process.
 
 ## Education
-* D.Phil. (Ph.D.) in Machine Learning, University of Oxford, 2029
-* M.Sc. in Artificial Intelligence & Machine Learning, Imperial College London, 2023
-* B.Sc. in Computer Science & Mathematics, University of Edinburgh, 2021
+* D.Phil. in [Healthcare Data Science (Machine Learning)](https://www.ox.ac.uk/admissions/graduate/courses/healthcare-data-science), University of Oxford, 2029
+* M.Sc. in [Computing (Artificial Intelligence and Machine Learning)](https://www.imperial.ac.uk/study/courses/postgraduate-taught/computing-artificial-intelligence-msc/), Imperial College London, 2023
+* B.Sc. in [Computer Science & Mathematics](https://study.ed.ac.uk/programmes/undergraduate/64-computer-science-and-mathematics), University of Edinburgh, 2021
 
 ## Work and research experience
 
