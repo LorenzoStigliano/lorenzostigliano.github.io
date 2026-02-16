@@ -22,7 +22,7 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
 * M.Sc. in [Computing (Artificial Intelligence and Machine Learning)](https://www.imperial.ac.uk/study/courses/postgraduate-taught/computing-artificial-intelligence-msc/), Imperial College London, 2023
 * B.Sc. in [Computer Science & Mathematics](https://study.ed.ac.uk/programmes/undergraduate/64-computer-science-and-mathematics), University of Edinburgh, 2021
 
-## Work and research experience
+## Experience
 
 <ul>
   <li>
