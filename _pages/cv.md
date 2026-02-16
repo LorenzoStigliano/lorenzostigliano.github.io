@@ -118,7 +118,7 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
   </li>
 </ul>
 
-## Awards and Prizes
+## Awards
 
 * **Fully Funded Doctoral Studentship EPSRC Centre for Doctoral Training in Healthcare Data Science**  
   Competitive award supporting doctoral training and research in Healthcare Data Science at the University of Oxford.
