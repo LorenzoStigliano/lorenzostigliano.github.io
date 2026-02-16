@@ -96,7 +96,7 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
       <span><em>Jun 2020</em></span>
     </div>
     <div style="display:flex; justify-content:space-between;">
-      <span>Undergraduate Research Assistant</span>
+      <span>Research Assistant</span>
       <span>Edinburgh, UK</span>
     </div>
     <ul>
