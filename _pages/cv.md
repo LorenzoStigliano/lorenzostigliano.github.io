@@ -19,8 +19,8 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
 
 ## Education
 * D.Phil. in [Healthcare Data Science (Machine Learning)](https://www.ox.ac.uk/admissions/graduate/courses/healthcare-data-science), University of Oxford, 2029
-* M.Sc. in [Computing (Artificial Intelligence and Machine Learning)](https://www.imperial.ac.uk/study/courses/postgraduate-taught/computing-artificial-intelligence-msc/), Imperial College London, 2023
-* B.Sc. in [Computer Science & Mathematics](https://study.ed.ac.uk/programmes/undergraduate/64-computer-science-and-mathematics), University of Edinburgh, 2021
+* M.Sc. in [Artificial Intelligence and Machine Learning](https://www.imperial.ac.uk/study/courses/postgraduate-taught/computing-artificial-intelligence-msc/), Imperial College London, 2023
+* B.Sc. in [Computer Science and Mathematics](https://study.ed.ac.uk/programmes/undergraduate/64-computer-science-and-mathematics), University of Edinburgh, 2021
 
 ## Experience
 
