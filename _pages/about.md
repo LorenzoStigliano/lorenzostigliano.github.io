@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a D.Phil. candidate working in the intersection of machine learning and biomedical applications at the [University of Oxford](https://www.ox.ac.uk/), funded by the [Engineering and Physical Sciences Research Council (EPSRC)](https://www.ukri.org/councils/epsrc/) [Center for Doctoral Training in Healthcare Data Science](https://www.bdi.ox.ac.uk/study/cdt).
+I am a D.Phil. candidate working in the intersection of machine learning and biomedical science at the [University of Oxford](https://www.ox.ac.uk/), funded by the [Engineering and Physical Sciences Research Council (EPSRC)](https://www.ukri.org/councils/epsrc/) [Center for Doctoral Training in Healthcare Data Science](https://www.bdi.ox.ac.uk/study/cdt).
 
 [See my CV →](/bio/)
 
