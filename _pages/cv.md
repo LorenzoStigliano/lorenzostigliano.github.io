@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Before starting at Oxford, I completed my B.Sc. in Computer Science and Mathematics at the [University of Edinburgh](https://www.ed.ac.uk/), graduating with First Class Honours and ranking first in my cohort. Followed by an M.Sc. in Artificial Intelligence and Machine Learning at [Imperial College London](https://www.imperial.ac.uk/), graduating with distinction. Here I worked as a Research Assistant in the [Brain and Signal Analysis Lab](https://basira-lab.com/) where I developed computationally efficient knowledge distillation methods for graph neural networks. Subsequently, I worked in industry as a Data Scientist in the Applied AI & Machine Learning team at [J.P. Morgan](https://www.jpmorgan.com/insights/technology/artificial-intelligence), where I designed, implemented, and optimized end-to-end machine learning systems deployed in large-scale production environments.
+Before starting at Oxford, I completed my B.Sc. in Computer Science and Mathematics at the [University of Edinburgh](https://www.ed.ac.uk/). Followed by an M.Sc. in Artificial Intelligence and Machine Learning at [Imperial College London](https://www.imperial.ac.uk/). Here I worked as a Research Assistant in the [Brain and Signal Analysis Lab](https://basira-lab.com/) where I developed computationally efficient knowledge distillation methods for graph neural networks. Subsequently, I worked in industry as a Data Scientist in the Applied AI & Machine Learning team at [J.P. Morgan](https://www.jpmorgan.com/insights/technology/artificial-intelligence), where I designed, implemented, and optimized end-to-end machine learning systems deployed in large-scale production environments.
 
 ---
 
