@@ -11,6 +11,8 @@ I am a D.Phil. candidate working at the intersection of machine learning and bio
 
 [See my CV →](/bio/)
 
+---
+
 Research
 ======
 
