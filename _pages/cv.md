@@ -18,12 +18,13 @@ A full CV can be found [here](https://lorenzostigliano.github.io/files/cv/Lorenz
 I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Lorenzo_CV_Full_Failures.pdf) - because rejection is part of the process.
 
 ## Education
+---
 * D.Phil. in [Machine Learning (Computational Biology)](https://www.ox.ac.uk/admissions/graduate/courses/healthcare-data-science), University of Oxford, 2029
 * M.Sc. in [Artificial Intelligence and Machine Learning](https://www.imperial.ac.uk/study/courses/postgraduate-taught/computing-artificial-intelligence-msc/), Imperial College London, 2023
 * B.Sc. in [Computer Science and Mathematics](https://study.ed.ac.uk/programmes/undergraduate/64-computer-science-and-mathematics), University of Edinburgh, 2021
 
 ## Experience
-
+---
 <ul>
   <li>
     <div style="display:flex; justify-content:space-between;">
@@ -119,7 +120,7 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
 </ul>
 
 ## Awards
-
+---
 * **Fully Funded Doctoral Studentship EPSRC Centre for Doctoral Training in Healthcare Data Science**  
   Competitive award supporting doctoral training and research in Healthcare Data Science at the University of Oxford.
 
@@ -140,6 +141,7 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
 * Spanish (Native), English (Fluent), Italian (Conversational) -->
 
 ## Research
+---
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
@@ -151,6 +153,7 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
   {% endfor %}</ul> -->
 
 ## Teaching
+---
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
