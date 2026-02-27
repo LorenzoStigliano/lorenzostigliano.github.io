@@ -64,7 +64,7 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
       <span>London, UK</span>
     </div>
     <ul>
-      <li>Led data analytics initiatives using large-scale web data to extract insights for over 1M companies</li>
+      <li>Led web data analytics initiative delivering actionable insights for 1M+ companies</li>
     </ul>
   </li>
   <li>
