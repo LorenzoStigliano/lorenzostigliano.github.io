@@ -17,7 +17,7 @@ Research
 ======
 
 
-My research focuses on developing robust, general-purpose representations from heterogeneous and multimodal data to enable earlier detection and improved understanding of aging-related diseases, in particular neurodegenerative disorders and cancer.
+My research focuses on developing robust, general-purpose representations from heterogeneous and multimodal data to enable earlier detection and improved understanding of aging-related diseases, with a particular emphasis on oncology.
 
 I am always keen to collaborate with researchers working on machine learning methodology and its applications to healthcare and other high-impact domains. Please feel free to get in touch if you are interested in working with me!
 
