@@ -123,17 +123,10 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
 
 ## Awards
 ---
-* **Fully Funded Doctoral Studentship EPSRC Centre for Doctoral Training in Healthcare Data Science**  
-  Competitive award supporting doctoral training and research in Healthcare Data Science at the University of Oxford.
-
-* **University of Edinburgh Class Prize**  
-  Awarded to the top-ranked student for the highest overall academic performance across Computer Science and Mathematics.
-
-* **King’s College Class Prize for Mathematics**  
-  Awarded for exceptional academic achievement in mathematics.
-
-* **King’s College Honorary Scholarship**  
-  Awarded in recognition of outstanding academic performance at AS Level.
+* Fully Funded Doctoral EPSRC Studentship, 2025
+* University of Edinburgh Class Prize in Computer Science and Mathematics, 2021
+* King’s College Class Prize for Mathematics, 2017
+* King’s College Honorary Scholarship, 2016
 
 <!-- ## Skills
 * Python, Java, SQL, Bash
