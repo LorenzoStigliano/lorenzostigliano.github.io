@@ -38,6 +38,10 @@ layout: default
         {% if page.category == 'thesis' or page.categories contains 'thesis' %}
           {% assign is_thesis = true %}
         {% endif %}
+        {% assign is_teaching = false %}
+        {% if page.collection == 'teaching' %}
+          {% assign is_teaching = true %}
+        {% endif %}
 
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
@@ -92,9 +96,9 @@ layout: default
         {% include page__taxonomy.html %}
       </footer>
 
-      {% if page.share and is_thesis == false %}{% include social-share.html %}{% endif %}
+      {% if page.share and is_thesis == false and is_teaching == false %}{% include social-share.html %}{% endif %}
 
-      {% if is_thesis == false %}{% include post_pagination.html %}{% endif %}
+      {% if is_thesis == false and is_teaching == false %}{% include post_pagination.html %}{% endif %}
     </div>
 
     {% if site.comments.provider and page.comments %}
