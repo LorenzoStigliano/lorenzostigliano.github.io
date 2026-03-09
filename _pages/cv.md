@@ -27,54 +27,88 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
 
 ## Experience
 ---
-<div style="border-left: 2px solid #d1d5db; margin-left: 0.5rem; padding-left: 1.25rem;">
-  <div style="position: relative; margin-bottom: 1.2rem;">
-    <span style="position: absolute; left: -1.62rem; top: 0.38rem; width: 0.55rem; height: 0.55rem; border-radius: 999px; background: #374151;"></span>
-    <div><strong>Sep 2023 - Sep 2025</strong></div>
-    <div><strong>J.P. Morgan</strong> | Data Scientist | London, UK</div>
-    <div>Developed end-to-end machine learning pipelines for time-series signal prediction</div>
+<div>
+  <div style="display:grid; grid-template-columns: 180px 30px 1fr; column-gap: 0.4rem; margin-bottom: 1rem;">
+    <div style="text-align:right; padding-top:0.1rem;">Sep 2023 - Sep 2025</div>
+    <div style="position:relative;">
+      <span style="position:absolute; left:50%; top:0; bottom:-1rem; width:2px; background:#d1d5db; transform:translateX(-50%);"></span>
+      <span style="position:absolute; left:50%; top:0.3rem; width:0.55rem; height:0.55rem; border-radius:999px; background:#374151; transform:translateX(-50%);"></span>
+    </div>
+    <div>
+      <div>Data Scientist</div>
+      <div>J.P. Morgan | London, UK</div>
+    </div>
   </div>
 
-  <div style="position: relative; margin-bottom: 1.2rem;">
-    <span style="position: absolute; left: -1.62rem; top: 0.38rem; width: 0.55rem; height: 0.55rem; border-radius: 999px; background: #374151;"></span>
-    <div><strong>Apr 2023 - Sep 2023</strong></div>
-    <div><strong>Imperial College London</strong> | Research Assistant | London, UK</div>
-    <div>Developed a novel knowledge distillation method for graph neural networks</div>
+  <div style="display:grid; grid-template-columns: 180px 30px 1fr; column-gap: 0.4rem; margin-bottom: 1rem;">
+    <div style="text-align:right; padding-top:0.1rem;">Apr 2023 - Sep 2023</div>
+    <div style="position:relative;">
+      <span style="position:absolute; left:50%; top:0; bottom:-1rem; width:2px; background:#d1d5db; transform:translateX(-50%);"></span>
+      <span style="position:absolute; left:50%; top:0.3rem; width:0.55rem; height:0.55rem; border-radius:999px; background:#374151; transform:translateX(-50%);"></span>
+    </div>
+    <div>
+      <div>Research Assistant</div>
+      <div>Imperial College London | Research Assistant | London, UK</div>
+    </div>
   </div>
 
-  <div style="position: relative; margin-bottom: 1.2rem;">
-    <span style="position: absolute; left: -1.62rem; top: 0.38rem; width: 0.55rem; height: 0.55rem; border-radius: 999px; background: #374151;"></span>
-    <div><strong>Jun 2022 - Aug 2022</strong></div>
-    <div><strong>J.P. Morgan</strong> | Data Scientist Intern | London, UK</div>
-    <div>Led web data analytics initiative delivering actionable insights for 1M+ companies</div>
+  <div style="display:grid; grid-template-columns: 180px 30px 1fr; column-gap: 0.4rem; margin-bottom: 1rem;">
+    <div style="text-align:right; padding-top:0.1rem;">Jun 2022 - Aug 2022</div>
+    <div style="position:relative;">
+      <span style="position:absolute; left:50%; top:0; bottom:-1rem; width:2px; background:#d1d5db; transform:translateX(-50%);"></span>
+      <span style="position:absolute; left:50%; top:0.3rem; width:0.55rem; height:0.55rem; border-radius:999px; background:#374151; transform:translateX(-50%);"></span>
+    </div>
+    <div>
+      <div>Data Scientist Intern</div>
+      <div>J.P. Morgan | London, UK</div>
+    </div>
   </div>
 
-  <div style="position: relative; margin-bottom: 1.2rem;">
-    <span style="position: absolute; left: -1.62rem; top: 0.38rem; width: 0.55rem; height: 0.55rem; border-radius: 999px; background: #374151;"></span>
-    <div><strong>Aug 2021 - Jun 2022</strong></div>
-    <div><strong>Barclays</strong> | Software Engineer | Glasgow, UK</div>
-    <div>Developed full-stack web applications to evaluate QA platform release impacts</div>
+  <div style="display:grid; grid-template-columns: 180px 30px 1fr; column-gap: 0.4rem; margin-bottom: 1rem;">
+    <div style="text-align:right; padding-top:0.1rem;">Aug 2021 - Jun 2022</div>
+    <div style="position:relative;">
+      <span style="position:absolute; left:50%; top:0; bottom:-1rem; width:2px; background:#d1d5db; transform:translateX(-50%);"></span>
+      <span style="position:absolute; left:50%; top:0.3rem; width:0.55rem; height:0.55rem; border-radius:999px; background:#374151; transform:translateX(-50%);"></span>
+    </div>
+    <div>
+      <div>Software Engineer</div>
+      <div>Barclays | Glasgow, UK</div>
+    </div>
   </div>
 
-  <div style="position: relative; margin-bottom: 1.2rem;">
-    <span style="position: absolute; left: -1.62rem; top: 0.38rem; width: 0.55rem; height: 0.55rem; border-radius: 999px; background: #374151;"></span>
-    <div><strong>Jul 2020 - Aug 2020</strong></div>
-    <div><strong>Barclays</strong> | Software Engineering Intern | Glasgow, UK</div>
-    <div>Built AWS-based applications to visualize client relationships</div>
+  <div style="display:grid; grid-template-columns: 180px 30px 1fr; column-gap: 0.4rem; margin-bottom: 1rem;">
+    <div style="text-align:right; padding-top:0.1rem;">Jul 2020 - Aug 2020</div>
+    <div style="position:relative;">
+      <span style="position:absolute; left:50%; top:0; bottom:-1rem; width:2px; background:#d1d5db; transform:translateX(-50%);"></span>
+      <span style="position:absolute; left:50%; top:0.3rem; width:0.55rem; height:0.55rem; border-radius:999px; background:#374151; transform:translateX(-50%);"></span>
+    </div>
+    <div>
+      <div>Software Engineer Intern</div>
+      <div>Barclays | Glasgow, UK</div>
+    </div>
   </div>
 
-  <div style="position: relative; margin-bottom: 1.2rem;">
-    <span style="position: absolute; left: -1.62rem; top: 0.38rem; width: 0.55rem; height: 0.55rem; border-radius: 999px; background: #374151;"></span>
-    <div><strong>Jun 2020</strong></div>
-    <div><strong>University of Edinburgh</strong> | Research Assistant | Edinburgh, UK</div>
-    <div>Contributed to the DAPHNE research project</div>
+  <div style="display:grid; grid-template-columns: 180px 30px 1fr; column-gap: 0.4rem; margin-bottom: 1rem;">
+    <div style="text-align:right; padding-top:0.1rem;">Jun 2020</div>
+    <div style="position:relative;">
+      <span style="position:absolute; left:50%; top:0; bottom:-1rem; width:2px; background:#d1d5db; transform:translateX(-50%);"></span>
+      <span style="position:absolute; left:50%; top:0.3rem; width:0.55rem; height:0.55rem; border-radius:999px; background:#374151; transform:translateX(-50%);"></span>
+    </div>
+    <div>
+      <div>Research Assistant</div>
+      <div>University of Edinburgh | Edinburgh, UK</div>
+    </div>
   </div>
 
-  <div style="position: relative;">
-    <span style="position: absolute; left: -1.62rem; top: 0.38rem; width: 0.55rem; height: 0.55rem; border-radius: 999px; background: #374151;"></span>
-    <div><strong>Jun 2019 - Jul 2019</strong></div>
-    <div><strong>Imagination Technologies</strong> | Software Engineering Intern | Kings Langley, UK</div>
-    <div>Developed a full-stack application automating hardware emulator workflows</div>
+  <div style="display:grid; grid-template-columns: 180px 30px 1fr; column-gap: 0.4rem;">
+    <div style="text-align:right; padding-top:0.1rem;">Jun 2019 - Jul 2019</div>
+    <div style="position:relative;">
+      <span style="position:absolute; left:50%; top:0.3rem; width:0.55rem; height:0.55rem; border-radius:999px; background:#374151; transform:translateX(-50%);"></span>
+    </div>
+    <div>
+      <div>Software Engineering Intern</div>
+      <div>Imagination Technologies | Kings Langley, UK</div>
+    </div>
   </div>
 </div>
 
