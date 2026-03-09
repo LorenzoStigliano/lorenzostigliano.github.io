@@ -29,8 +29,8 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
       <span style="position:absolute; left:50%; top:0.3rem; width:0.55rem; height:0.55rem; border-radius:999px; background:#374151; transform:translateX(-50%);"></span>
     </div>
     <div>
-      <div>D.Phil. in <a href="https://www.ox.ac.uk/admissions/graduate/courses/healthcare-data-science">Machine Learning (Computational Biology)</a>, University of Oxford</div>
-      <div>Oxford, UK</div>
+      <div>D.Phil. in <a href="https://www.ox.ac.uk/admissions/graduate/courses/healthcare-data-science">Machine Learning (Computational Biology)</a></div>
+      <div>University of Oxford</div>
     </div>
   </div>
 
@@ -41,8 +41,8 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
       <span style="position:absolute; left:50%; top:0.3rem; width:0.55rem; height:0.55rem; border-radius:999px; background:#374151; transform:translateX(-50%);"></span>
     </div>
     <div>
-      <div>M.Sc. in <a href="https://www.imperial.ac.uk/study/courses/postgraduate-taught/computing-artificial-intelligence-msc/">Artificial Intelligence and Machine Learning</a>, Imperial College London</div>
-      <div>London, UK</div>
+      <div>M.Sc. in <a href="https://www.imperial.ac.uk/study/courses/postgraduate-taught/computing-artificial-intelligence-msc/">Artificial Intelligence and Machine Learning</a></div>
+      <div>Imperial College London</div>
     </div>
   </div>
 
@@ -52,8 +52,8 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
       <span style="position:absolute; left:50%; top:0.3rem; width:0.55rem; height:0.55rem; border-radius:999px; background:#374151; transform:translateX(-50%);"></span>
     </div>
     <div>
-      <div>B.Sc. in <a href="https://study.ed.ac.uk/programmes/undergraduate/64-computer-science-and-mathematics">Computer Science and Mathematics</a>, University of Edinburgh</div>
-      <div>Edinburgh, UK</div>
+      <div>B.Sc. in <a href="https://study.ed.ac.uk/programmes/undergraduate/64-computer-science-and-mathematics">Computer Science and Mathematics</a></div>
+      <div>University of Edinburgh</div>
     </div>
   </div>
 
