@@ -35,8 +35,8 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
       <span style="position:absolute; left:50%; top:0.3rem; width:0.55rem; height:0.55rem; border-radius:999px; background:#374151; transform:translateX(-50%);"></span>
     </div>
     <div>
-      <div>Data Scientist</div>
-      <div>J.P. Morgan | London, UK</div>
+      <div>Data Scientist, J.P. Morgan</div>
+      <div>London, UK</div>
     </div>
   </div>
 
@@ -47,8 +47,8 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
       <span style="position:absolute; left:50%; top:0.3rem; width:0.55rem; height:0.55rem; border-radius:999px; background:#374151; transform:translateX(-50%);"></span>
     </div>
     <div>
-      <div>Research Assistant</div>
-      <div>Imperial College London | Research Assistant | London, UK</div>
+      <div>Research Assistant, Imperial College London</div>
+      <div>London, UK</div>
     </div>
   </div>
 
@@ -59,8 +59,8 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
       <span style="position:absolute; left:50%; top:0.3rem; width:0.55rem; height:0.55rem; border-radius:999px; background:#374151; transform:translateX(-50%);"></span>
     </div>
     <div>
-      <div>Data Scientist Intern</div>
-      <div>J.P. Morgan | London, UK</div>
+      <div>Data Scientist Intern, J.P. Morgan </div>
+      <div>London, UK</div>
     </div>
   </div>
 
@@ -71,8 +71,8 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
       <span style="position:absolute; left:50%; top:0.3rem; width:0.55rem; height:0.55rem; border-radius:999px; background:#374151; transform:translateX(-50%);"></span>
     </div>
     <div>
-      <div>Software Engineer</div>
-      <div>Barclays | Glasgow, UK</div>
+      <div>Software Engineer, Barclays</div>
+      <div>Glasgow, UK</div>
     </div>
   </div>
 
@@ -83,8 +83,8 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
       <span style="position:absolute; left:50%; top:0.3rem; width:0.55rem; height:0.55rem; border-radius:999px; background:#374151; transform:translateX(-50%);"></span>
     </div>
     <div>
-      <div>Software Engineer Intern</div>
-      <div>Barclays | Glasgow, UK</div>
+      <div>Software Engineer Intern, Barclays</div>
+      <div>Glasgow, UK</div>
     </div>
   </div>
 
@@ -95,8 +95,8 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
       <span style="position:absolute; left:50%; top:0.3rem; width:0.55rem; height:0.55rem; border-radius:999px; background:#374151; transform:translateX(-50%);"></span>
     </div>
     <div>
-      <div>Research Assistant</div>
-      <div>University of Edinburgh | Edinburgh, UK</div>
+      <div>Research Assistant, University of Edinburgh</div>
+      <div>Edinburgh, UK</div>
     </div>
   </div>
 
@@ -106,8 +106,8 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
       <span style="position:absolute; left:50%; top:0.3rem; width:0.55rem; height:0.55rem; border-radius:999px; background:#374151; transform:translateX(-50%);"></span>
     </div>
     <div>
-      <div>Software Engineering Intern</div>
-      <div>Imagination Technologies | Kings Langley, UK</div>
+      <div>Software Engineering Intern, Imagination Technologies</div>
+      <div>Kings Langley, UK</div>
     </div>
   </div>
 </div>
