@@ -25,8 +25,8 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
   <div style="display:grid; grid-template-columns: 180px 30px 1fr; column-gap: 0.4rem; margin-bottom: 1rem;">
     <div style="text-align:right; padding-top:0.1rem;">2029</div>
     <div style="position:relative;">
-      <span style="position:absolute; left:50%; top:0; bottom:-1rem; width:2px; background:#d1d5db; transform:translateX(-50%);"></span>
-      <span style="position:absolute; left:50%; top:0.3rem; width:0.55rem; height:0.55rem; border-radius:999px; background:#374151; transform:translateX(-50%);"></span>
+      <span style="position:absolute; left:50%; top:0.68rem; bottom:-1rem; width:2px; background:#d1d5db; transform:translateX(-50%);"></span>
+      <span style="position:absolute; left:50%; top:0.4rem; width:0.55rem; height:0.55rem; border-radius:999px; background:#374151; transform:translateX(-50%);"></span>
     </div>
     <div>
       <div>D.Phil. in <a href="https://www.ox.ac.uk/admissions/graduate/courses/healthcare-data-science">Machine Learning (Computational Biology)</a></div>
@@ -37,8 +37,8 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
   <div style="display:grid; grid-template-columns: 180px 30px 1fr; column-gap: 0.4rem; margin-bottom: 1rem;">
     <div style="text-align:right; padding-top:0.1rem;">2023</div>
     <div style="position:relative;">
-      <span style="position:absolute; left:50%; top:0; bottom:-1rem; width:2px; background:#d1d5db; transform:translateX(-50%);"></span>
-      <span style="position:absolute; left:50%; top:0.3rem; width:0.55rem; height:0.55rem; border-radius:999px; background:#374151; transform:translateX(-50%);"></span>
+      <span style="position:absolute; left:50%; top:0.68rem; bottom:-1rem; width:2px; background:#d1d5db; transform:translateX(-50%);"></span>
+      <span style="position:absolute; left:50%; top:0.4rem; width:0.55rem; height:0.55rem; border-radius:999px; background:#374151; transform:translateX(-50%);"></span>
     </div>
     <div>
       <div>M.Sc. in <a href="https://www.imperial.ac.uk/study/courses/postgraduate-taught/computing-artificial-intelligence-msc/">Artificial Intelligence and Machine Learning</a></div>
@@ -49,7 +49,7 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
   <div style="display:grid; grid-template-columns: 180px 30px 1fr; column-gap: 0.4rem;">
     <div style="text-align:right; padding-top:0.1rem;">2021</div>
     <div style="position:relative;">
-      <span style="position:absolute; left:50%; top:0.3rem; width:0.55rem; height:0.55rem; border-radius:999px; background:#374151; transform:translateX(-50%);"></span>
+      <span style="position:absolute; left:50%; top:0.4rem; width:0.55rem; height:0.55rem; border-radius:999px; background:#374151; transform:translateX(-50%);"></span>
     </div>
     <div>
       <div>B.Sc. in <a href="https://study.ed.ac.uk/programmes/undergraduate/64-computer-science-and-mathematics">Computer Science and Mathematics</a></div>
