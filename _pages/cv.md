@@ -117,7 +117,7 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
       <span style="position:absolute; left:50%; top:0.4rem; width:0.55rem; height:0.55rem; border-radius:999px; background:#374151; transform:translateX(-50%);"></span>
     </div>
     <div>
-      <div>Software Engineering Intern, Barclays</div>
+      <div>Software Engineer Intern, Barclays</div>
       <div>Glasgow, UK</div>
     </div>
   </div>
@@ -140,7 +140,7 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
       <span style="position:absolute; left:50%; top:0.4rem; width:0.55rem; height:0.55rem; border-radius:999px; background:#374151; transform:translateX(-50%);"></span>
     </div>
     <div>
-      <div>Software Engineering Intern, Imagination Technologies</div>
+      <div>Software Engineer Intern, Imagination Technologies</div>
       <div>Kings Langley, UK</div>
     </div>
   </div>
