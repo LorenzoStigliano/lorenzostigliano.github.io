@@ -23,7 +23,7 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
 ---
 <div>
   <div style="display:grid; grid-template-columns: 180px 30px 1fr; column-gap: 0.4rem; margin-bottom: 1rem;">
-    <div style="text-align:right; padding-top:0.1rem;">2029</div>
+    <div style="text-align:left; padding-top:0.1rem;">2029</div>
     <div style="position:relative;">
       <span style="position:absolute; left:50%; top:0.68rem; bottom:-1rem; width:2px; background:#d1d5db; transform:translateX(-50%);"></span>
       <span style="position:absolute; left:50%; top:0.4rem; width:0.55rem; height:0.55rem; border-radius:999px; background:#374151; transform:translateX(-50%);"></span>
@@ -35,7 +35,7 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
   </div>
 
   <div style="display:grid; grid-template-columns: 180px 30px 1fr; column-gap: 0.4rem; margin-bottom: 1rem;">
-    <div style="text-align:right; padding-top:0.1rem;">2023</div>
+    <div style="text-align:left; padding-top:0.1rem;">2023</div>
     <div style="position:relative;">
       <span style="position:absolute; left:50%; top:0.68rem; bottom:-1rem; width:2px; background:#d1d5db; transform:translateX(-50%);"></span>
       <span style="position:absolute; left:50%; top:0.4rem; width:0.55rem; height:0.55rem; border-radius:999px; background:#374151; transform:translateX(-50%);"></span>
@@ -47,7 +47,7 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
   </div>
 
   <div style="display:grid; grid-template-columns: 180px 30px 1fr; column-gap: 0.4rem;">
-    <div style="text-align:right; padding-top:0.1rem;">2021</div>
+    <div style="text-align:left; padding-top:0.1rem;">2021</div>
     <div style="position:relative;">
       <span style="position:absolute; left:50%; top:0.4rem; width:0.55rem; height:0.55rem; border-radius:999px; background:#374151; transform:translateX(-50%);"></span>
     </div>
@@ -63,7 +63,7 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
 ---
 <div>
   <div style="display:grid; grid-template-columns: 180px 30px 1fr; column-gap: 0.4rem; margin-bottom: 1rem;">
-    <div style="text-align:right; padding-top:0.1rem;">2025</div>
+    <div style="text-align:left; padding-top:0.1rem;">2025</div>
     <div style="position:relative;">
       <span style="position:absolute; left:50%; top:0.68rem; bottom:-1rem; width:2px; background:#d1d5db; transform:translateX(-50%);"></span>
       <span style="position:absolute; left:50%; top:0.4rem; width:0.55rem; height:0.55rem; border-radius:999px; background:#374151; transform:translateX(-50%);"></span>
@@ -75,7 +75,7 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
   </div>
 
   <div style="display:grid; grid-template-columns: 180px 30px 1fr; column-gap: 0.4rem; margin-bottom: 1rem;">
-    <div style="text-align:right; padding-top:0.1rem;">2023</div>
+    <div style="text-align:left; padding-top:0.1rem;">2023</div>
     <div style="position:relative;">
       <span style="position:absolute; left:50%; top:0.68rem; bottom:-1rem; width:2px; background:#d1d5db; transform:translateX(-50%);"></span>
       <span style="position:absolute; left:50%; top:0.4rem; width:0.55rem; height:0.55rem; border-radius:999px; background:#374151; transform:translateX(-50%);"></span>
@@ -87,7 +87,7 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
   </div>
 
   <div style="display:grid; grid-template-columns: 180px 30px 1fr; column-gap: 0.4rem; margin-bottom: 1rem;">
-    <div style="text-align:right; padding-top:0.1rem;">2022</div>
+    <div style="text-align:left; padding-top:0.1rem;">2022</div>
     <div style="position:relative;">
       <span style="position:absolute; left:50%; top:0.68rem; bottom:-1rem; width:2px; background:#d1d5db; transform:translateX(-50%);"></span>
       <span style="position:absolute; left:50%; top:0.4rem; width:0.55rem; height:0.55rem; border-radius:999px; background:#374151; transform:translateX(-50%);"></span>
@@ -99,7 +99,7 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
   </div>
 
   <div style="display:grid; grid-template-columns: 180px 30px 1fr; column-gap: 0.4rem; margin-bottom: 1rem;">
-    <div style="text-align:right; padding-top:0.1rem;"></div>
+    <div style="text-align:left; padding-top:0.1rem;"></div>
     <div style="position:relative;">
       <span style="position:absolute; left:50%; top:0.68rem; bottom:-1rem; width:2px; background:#d1d5db; transform:translateX(-50%);"></span>
       <span style="position:absolute; left:50%; top:0.4rem; width:0.55rem; height:0.55rem; border-radius:999px; background:#374151; transform:translateX(-50%);"></span>
@@ -111,7 +111,7 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
   </div>
 
   <div style="display:grid; grid-template-columns: 180px 30px 1fr; column-gap: 0.4rem; margin-bottom: 1rem;">
-    <div style="text-align:right; padding-top:0.1rem;">2020</div>
+    <div style="text-align:left; padding-top:0.1rem;">2020</div>
     <div style="position:relative;">
       <span style="position:absolute; left:50%; top:0.68rem; bottom:-1rem; width:2px; background:#d1d5db; transform:translateX(-50%);"></span>
       <span style="position:absolute; left:50%; top:0.4rem; width:0.55rem; height:0.55rem; border-radius:999px; background:#374151; transform:translateX(-50%);"></span>
@@ -123,7 +123,7 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
   </div>
 
   <div style="display:grid; grid-template-columns: 180px 30px 1fr; column-gap: 0.4rem; margin-bottom: 1rem;">
-    <div style="text-align:right; padding-top:0.1rem;"></div>
+    <div style="text-align:left; padding-top:0.1rem;"></div>
     <div style="position:relative;">
       <span style="position:absolute; left:50%; top:0.68rem; bottom:-1rem; width:2px; background:#d1d5db; transform:translateX(-50%);"></span>
       <span style="position:absolute; left:50%; top:0.4rem; width:0.55rem; height:0.55rem; border-radius:999px; background:#374151; transform:translateX(-50%);"></span>
@@ -135,7 +135,7 @@ I also keep a CV of [failures](https://lorenzostigliano.github.io/files/cv/Loren
   </div>
 
   <div style="display:grid; grid-template-columns: 180px 30px 1fr; column-gap: 0.4rem;">
-    <div style="text-align:right; padding-top:0.1rem;">2019</div>
+    <div style="text-align:left; padding-top:0.1rem;">2019</div>
     <div style="position:relative;">
       <span style="position:absolute; left:50%; top:0.4rem; width:0.55rem; height:0.55rem; border-radius:999px; background:#374151; transform:translateX(-50%);"></span>
     </div>
