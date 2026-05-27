@@ -16,14 +16,18 @@
 
 <hr>
 
+<h2>thoughts</h2>
+
 <ul>
   <li>
-    <b><a href="notes/first-post.html">writing your first thought</a></b>
-    &mdash; 27 may 2026<br>
-    <small>a placeholder to show how this works.</small>
+    <a href="notes/motivation-why.html">why am i writing</a><br>
+    <small>27 may 2026</small>
   </li>
 </ul>
 
-<hr>
+
+<div id="site-footer"></div>
+<script>fetch('/footer.html').then(r=>r.text()).then(h=>document.getElementById('site-footer').innerHTML=h);</script>
+
 </body>
 </html>
