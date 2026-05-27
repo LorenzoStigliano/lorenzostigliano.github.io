@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>blog &mdash; lorenzo stigliano</title>
+</head>
+<body>
+
+<div id="site-header"></div>
+<script>fetch('/header.html').then(r=>r.text()).then(h=>document.getElementById('site-header').innerHTML=h);</script>
+
+<h1>blog</h1>
+
+<p><i>notes on research, methods, and whatever else seems worth writing down.</i></p>
+
+<hr>
+
+<ul>
+  <li>
+    <b><a href="posts/first-post.html">writing your first blog post</a></b>
+    &mdash; 27 may 2026<br>
+    <small>a placeholder to show how this works.</small>
+  </li>
+</ul>
+
+<hr>
+</body>
+</html>

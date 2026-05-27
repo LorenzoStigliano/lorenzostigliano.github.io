@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>writing your first blog post &mdash; lorenzo stigliano</title>
+</head>
+<body>
+
+<div id="site-header"></div>
+<script>fetch('/header.html').then(r=>r.text()).then(h=>document.getElementById('site-header').innerHTML=h);</script>
+
+<h1>writing your first blog post</h1>
+<p><small>27 may 2026 &mdash; 3 min read</small></p>
+
+<hr>
+
+<p>
+  this is a template for a blog post. replace everything from here down with your
+  own writing. keep it short if you want. no one said blog posts need to be long.
+</p>
+
+<p>
+  this whole site is just html files. to write a new post:
+</p>
+
+<ol>
+  <li>copy this file into the <code>posts/</code> folder with a descriptive name.</li>
+  <li>change the <code>&lt;title&gt;</code> and <code>&lt;h1&gt;</code>.</li>
+  <li>write your post between the <code>&lt;hr&gt;</code> tags.</li>
+  <li>add a link to it in <code>index.html</code> under the blog section.</li>
+</ol>
+
+<p>
+  that&rsquo;s it. no build step, no cms, no dependencies.
+  markdown is nice but it requires a toolchain. plain html runs anywhere forever.
+</p>
+
+<p>
+  some things you can do without css: <b>bold</b>, <i>italics</i>,
+  <code>inline code</code>, and blockquotes:
+</p>
+
+<blockquote>
+  &ldquo;the purpose of writing is to clarify your thinking.&rdquo;
+</blockquote>
+
+<p>and footnotes, loosely:<sup>1</sup></p>
+
+<hr>
+
+<p><small>
+  <sup>1</sup> just number them inline and list them at the bottom. old-school but it works.
+</small></p>
+
+</body>
+</html>
