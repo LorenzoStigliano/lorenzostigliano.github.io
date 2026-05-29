@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>lorenzo stigliano</title>
+</head>
+<body>
+
+<div id="site-header"></div>
+<script>fetch('/header.html').then(r=>r.text()).then(h=>document.getElementById('site-header').innerHTML=h);</script>
+
+<h1>lorenzo stigliano</h1>
+
+<p>
+  i am a d.phil. candidate at the <a href="https://www.ox.ac.uk/">university of oxford</a>,
+  working at the intersection of machine learning and biomedical science.
+  i am funded by the <a href="https://www.ukri.org/councils/epsrc/">epsrc</a>
+  <a href="https://www.bdi.ox.ac.uk/study/cdt">centre for doctoral training in healthcare data science</a>.
+</p>
+
+<p>
+  before oxford, i completed a b.sc. in computer science and mathematics at the
+  <a href="https://www.ed.ac.uk/">university of edinburgh</a>, and an m.sc. in artificial
+  intelligence and machine learning at <a href="https://www.imperial.ac.uk/">imperial college london</a>,
+  where i worked in the <a href="https://basira-lab.com/">brain and signal analysis lab</a>
+  on knowledge distillation for graph neural networks.
+  i subsequently worked as a data scientist at
+  <a href="https://www.jpmorgan.com/">j.p. morgan</a> in the applied ai &amp; ml team.
+  a full cv can be found <a href="files/cv/Lorenzo_CV_Full.pdf">here</a>.
+</p>
+
+<hr>
+
+<h2><a name="research">research</a></h2>
+
+<p>
+  my research focuses on scientifically-grounded models for multi-omics data.
+  i incorporate domain knowledge as structured inductive biases to respect the causal
+  and statistical relationships between genomic modalities, with a particular focus on oncology.
+  learn more about my research a <a href="research.html">here</a>.
+  
+</p>
+
+<h3><a name="research">selected work</a></h3>
+
+<ul>
+  <li>
+    <b><a href="research/grad-thesis.html">reproducible knowledge distillation for graph neural networks</a></b> (2023)<br>
+    <small>repkd: a two-stage framework that jointly trains multiple student gnns in a one-to-many
+    teacher&ndash;student setup, improving reproducibility while achieving over 95% parameter reduction.
+    </small>
+  </li>
+  <li>
+    <b><a href="research/undergrad-thesis.html">introduction to inverse problems and markov chain monte carlo methods</a></b> (2021)<br>
+    <small>develops and compares metropolis&ndash;hastings and non-reversible mcmc samplers
+    via bayesian inference, with applications to imaging inverse problems.
+   </small>
+  </li>
+</ul>
+
+<hr>
+
+<h2><a name="contact">contact</a></h2>
+
+<p>
+i am always keen to collaborate with researchers working on machine learning methodology and its applications to healthcare and other high-impact domains. please feel free to get in touch if you are interested in working with me!
+</p>
+
+<p>
+  <a href="mailto:lorenzo.stigliano@bnc.ox.ac.uk">email</a> &nbsp;&middot;&nbsp;
+  <a href="https://github.com/lorenzostigliano">github</a> &nbsp;&middot;&nbsp;
+  <a href="https://www.linkedin.com/in/lorenzo-stigliano-001644182">linkedin</a> &nbsp;&middot;&nbsp;
+  <a href="https://www.bdi.ox.ac.uk/Team/lorenzo-stigliano">academic profile</a>
+  </p>
+
+
+<div id="site-footer"></div>
+<script>fetch('/footer.html').then(r=>r.text()).then(h=>document.getElementById('site-footer').innerHTML=h);</script>
+
+</body>
+</html>
