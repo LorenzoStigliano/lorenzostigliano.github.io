@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>how can we test for entanglement in latent spaces? &mdash; lorenzo stigliano</title>
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    }
+  };
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-chtml.min.js"></script>
+</head>
+<body>
+
+<div id="site-header"></div>
+<script>fetch('/header.html').then(r=>r.text()).then(h=>document.getElementById('site-header').innerHTML=h);</script>
+
+<h1>how can we test for entanglement in latent spaces?</h1>
+<p><small>1 june 2026</small></p>
+
+<hr>
+
+<p>
+  an interesting question i have come across is: how can we steer our models, or for that matter move outputs in a certain direction, based
+  on some metric of interest we want to optimise for. more importantly how do we know that our latent space have a unique direction 
+  which is not confounded with any other variable? can we hope we can find vectors such that we can change them without
+  altering a different property.
+</p>
+
+<p>
+  formally, suppose $z \in \mathbb{R}^d$ is the latent representation of our input $x$. we want to know whether two scalar properties
+  $a,b$ are linearly decodable (i.e. there exists a direction $w$ such that $w^Tz \approx a$) from $z$ via independant directions $z = \alpha \mathbf{u}_a a + \beta \mathbf{u}_b b + \epsilon$ where
+  $\mathbf{u}_a, \mathbf{u}_b \in \mathbb{R}^d$ such that steering along $\mathbf{u}_a$ changes $a$ without affecting $b$
+  and vice versa. to test this we simply learn $w$ where $a = w^Tz + b_0$ via linear regression, where $b_0$ is the bias term.
+</p>
+
+<p>
+  recall using mse we wish to minimize the following loss $L(w,b_0) = \mathbb{E}[(w^Tz + b_0 - a)^2]$ lets begin by taking derivate
+  w.r.t $\partial_{b_0} L = 2\mathbb{E}[w^Tz + b_0 - a] = 0$ so $b_0^* = \mathbb{E}[a] - w^T\mathbb{E}[z]$ and subbing this into our 
+  original formulation we get $L(w,b_0^*) = \mathbb{E}[(w^Tz + \mathbb{E}[a] - w^T\mathbb{E}[z] - a)^2] = \mathbb{E}[(w^T( z - \mathbb{E}[z]) - (a - \mathbb{E}[a]))^2]$ simply 
+  let $z = z - \mathbb{E}[z]$ and $a = a - \mathbb{E}[a]$ be mean centered so $L(w) =  \mathbb{E}[(w^Tz- a)^2]$. lets now expand and rewrite:
+  
+  $$
+  \begin{align}
+  \mathbb{E}[(w^Tz - a)^2] 
+  &= \mathbb{E}[(w^Tz)^2 -2w^Tza + a^2] \\
+  &= \mathbb{E}[(w^Tz)^2] - 2\mathbb{E}[w^Tza] + \mathbb{E}[a^2] \\
+  &= w^T\mathbb{E}[zz^T]w - 2w^T\mathbb{E}[za] + \text{Var}(a) \\
+  &= w^T\Sigma_z w - 2w^T\text{Cov}(z,a) + \text{Var}(a)
+  \end{align}
+  $$
+taking the derivative w.r.t $w$: $\partial_{w}  \mathbb{E}[(w^Tz- a)^2] = 2\Sigma_z w - 2\text{Cov}(z,a) = 0$ therefore $w^* = \Sigma_z^{-1}\text{Cov}(z,a)$,
+where $\Sigma_z = \mathbb{E}[zz^\top] \in \mathbb{R}^{d \times d}$ is the covariance matrix of the representation $z$, capturing redundancy between dimensions of $z$, 
+and $\text{Cov}(z,a) \in \mathbb{R}^d$ is the vector of covariances between each dimension of $z$ and $a$, i.e. how each dimension of the latent space tracks the property $a$.
+</p>
+
+<p>
+going back to the original formulation ($z = \alpha \mathbf{u}_a a + \beta \mathbf{u}_b b + \epsilon$) we notice that 
+    $$
+    \begin{align}
+    \text{Cov}(z,a) = \mathbb{E}[za]
+    &= \mathbb{E}[(\alpha \mathbf{u}_a a + \beta \mathbf{u}_b b + \epsilon) a ] \\
+    &= \alpha \mathbf{u}_a \mathbb{E}[a^2] + \beta \mathbf{u}_b \mathbb{E}[ba] + \mathbb{E}[\epsilon a] \\
+    &= \alpha \mathbf{u}_a \text{Var}(a) + \beta \mathbf{u}_b \text{Cov}(b,a)
+    \end{align}
+    $$
+
+    where $\mathbb{E}[ba] = \text{Cov}(b,a)$ since both $b$ and $a$ are mean-centred, so $\text{Cov}(b,a) = \mathbb{E}[ba] - \mathbb{E}[b]\mathbb{E}[a] = \mathbb{E}[ba]$.
+    the vectors $\mathbf{u}_a, \mathbf{u}_b \in \mathbb{R}^d$ factorise outside the expectation because they are fixed directions in latent space, 
+    they do not vary across sequences. only $a$ and $b$ are random, so $\mathbb{E}[\mathbf{u}_a a^2] = \mathbf{u}_a \mathbb{E}[a^2]$, 
+    exactly as a constant scales out of any expectation. as a result the natural direction of 
+     $w^* = \Sigma_z^{-1}\text{Cov}(z,a) = \Sigma_z^{-1} (\alpha \mathbf{u}_a \text{Var}(a) + \beta \mathbf{u}_b \text{Cov}(b,a))$.
+  </p>
+
+  <p>
+this is now the interesting part, we can construct a dataset such that $\text{Cov}(b,a) = 0$ by enforcing 
+    $p(b \mid a = \text{high}) = p(b \mid a = \text{low})$ — i.e. $b$ is independent of $a$ by design. the contamination term vanishes:
+    $$
+    \text{Cov}_{\text{matched}}(z,a) = \alpha \mathbf{u}_a \text{Var}_{\text{matched}}(a) + \beta \mathbf{u}_b \underbrace{\text{Cov}_{\text{matched}}(b,a)}_{=\,0} = \alpha \mathbf{u}_a \text{Var}_{\text{matched}}(a)
+    $$
+    and therefore:
+    $$
+    w^*_a = \Sigma_z^{-1} \alpha \mathbf{u}_a \text{Var}_{\text{matched}}(a)
+    $$
+    which is only dependent on $\text{Var}(a)$, a scalar, meaning $w^*_a$ points purely along $\mathbf{u}_a$. symmetrically, constructing a matched dataset where $\text{Cov}(a,b) = 0$:
+    $$
+    w^*_b = \Sigma_z^{-1} \beta \mathbf{u}_b \text{Var}_{\text{matched}}(b)
+    $$
+    we then test disentanglement via the dot product of the two cleaned probe directions:
+    $$
+    w^{*\top}_a w^*_b \propto \mathbf{u}_a^\top \Sigma_z^{-2} \mathbf{u}_b \approx 0 \iff \mathbf{u}_a \perp \mathbf{u}_b
+    $$
+  if this holds, $a$ and $b$ occupy independent directions in $z$ and can be steered separately. to quantify how well each probe works we use $R^2$, the fraction of variance in $a$ explained by $w^*_a$ on held-out matched pairs:
+    $$
+    R^2 = 1 - \frac{\sum_k (a^{(k)} - w^{*\top}_a z^{(k)})^2}{\sum_k (a^{(k)} - \bar{a})^2}
+    $$
+    the numerator is the residual variance, what $w^*_a$ failed to explain. the denominator is the total variance in $a$. so $R^2 \in [0,1]$ where $R^2 = 1$ 
+    means $w^*_a$ perfectly predicts $a$ from $z$ and $R^2 = 0$ means no genuine direction for $a$ exists in $z$.
+    crucially this is evaluated on held-out sequences from the matched dataset, sequences the probe never saw during training. 
+    since the probe has never seen the test sequences, any predictive power must come from $w^*_a$ having found a genuine 
+    geometric direction in $z$ that generalises, not from memorising the training sequences. 
+    high $R^2$ on held-out sequences is therefore evidence that the direction $\mathbf{u}_a$ is a stable structure in the representation, 
+    not an artefact of fitting noise.
+  </p>
+
+<p>
+  note that probes can be trained independently at each layer $\ell$ of the model, giving a profile 
+    of $R^2_\ell$ across depth, disentanglement may emerge at some layers and not others. if $R^2_\ell 
+    \approx 0$ across all layers, no layer has learned a direction for $a$ independent of $b$, and 
+    steering along any $w^*_a$ will unavoidably also move $b$.
+</p>
+
+
+<div id="site-footer"></div>
+<script>fetch('/footer.html').then(r=>r.text()).then(h=>document.getElementById('site-footer').innerHTML=h);</script>
+
+</body>
+</html>

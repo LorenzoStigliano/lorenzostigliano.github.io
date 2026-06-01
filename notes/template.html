@@ -5,13 +5,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>writing your first blog post &mdash; lorenzo stigliano</title>
 </head>
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    }
+  };
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-chtml.min.js"></script>
 <body>
 
 <div id="site-header"></div>
 <script>fetch('/header.html').then(r=>r.text()).then(h=>document.getElementById('site-header').innerHTML=h);</script>
 
 <h1>writing your first blog post</h1>
-<p><small>27 may 2026 &mdash; 3 min read</small></p>
+<p><small>27 may 2026</small></p>
 
 <hr>
 
