@@ -78,7 +78,7 @@ going back to the original formulation ($z = \alpha \mathbf{u}_a a + \beta \math
 
   <p>
 this is now the interesting part, we can construct a dataset such that $\text{Cov}(b,a) = 0$ by enforcing 
-    $p(b \mid a = \text{high}) = p(b \mid a = \text{low})$ — i.e. $b$ is independent of $a$ by design. the contamination term vanishes:
+    $p(b \mid a = \text{high}) = p(b \mid a = \text{low})$ i.e. $b$ is independent of $a$ by design. the contamination term vanishes:
     $$
     \text{Cov}_{\text{matched}}(z,a) = \alpha \mathbf{u}_a \text{Var}_{\text{matched}}(a) + \beta \mathbf{u}_b \underbrace{\text{Cov}_{\text{matched}}(b,a)}_{=\,0} = \alpha \mathbf{u}_a \text{Var}_{\text{matched}}(a)
     $$

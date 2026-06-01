@@ -4,6 +4,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>what is activation steering in language models?</title>
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    }
+  };
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-chtml.min.js"></script>
 </head>
 <body>
 
@@ -22,7 +31,7 @@
   the idea, although hidden behind the usual superfluous jargon of any ml paper, is quite simple. 
   suppose you want to align a text with a sentiment (talk in a happy tone), 
   topic (change the location of place) or remove toxicity from text. you would simply pick (yes you have to think) "opposing pairs" of free text, such as the canonical example of "love" and "hate", do a full forward pass on your favorite lm, and then take 
-  the difference of layer "l"s activations for both free texts to find the "love" - "hate" vector. the idea is that the difference removes noise, positional artefacts, and/or simple encoding that tell us that this is a word and leaves
+  the difference of layer $\ell$'s activations for both free texts to find the "love" - "hate" vector. the idea is that the difference removes noise, positional artefacts, and/or simple encoding that tell us that this is a word and leaves
   the direction of where these two free texts differ, the axis we care about. this is the steering vector. whats nice is that we can evaluate this for any layer (and is a hyperparameter which is tuned),
   and move texts in the direction we want for free (no backward pass) and in a systematic way. effectively analogous to the word2vec embedding example: <code>king - man + woman = queen</code> where we can move 
   in the space of words, here we can move beyond words and steer free text in any direction we want.
