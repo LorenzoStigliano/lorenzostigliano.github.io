@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>epi-llm framework: probing llm behavioral priors through epidemiological agent-based models</title>
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    }
+  };
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-chtml.min.js"></script>
+</head>
+<body>
+
+<div id="site-header"></div>
+<script>fetch('/header.html').then(r=>r.text()).then(h=>document.getElementById('site-header').innerHTML=h);</script>
+
+<h2>epi-llm framework: probing llm behavioral priors through epidemiological agent-based models</h2>
+<p><small>arxiv preprint, 2026</small></p>
+<p><small>p. ferencz*, a. keeling*, t. o'keefe*, l. stigliano*, f. di lauro, a. colubri, j. panovska-griffiths</small></p>
+
+<hr>
+
+<p>
+  human behaviour during epidemics affects infectious disease dynamics, but quantifying this remains deeply challenging. 
+  here we introduce the epi-llm framework: a novel integration of agent-based modelling, real-life epigames, and large 
+  language models (llms) in which a synthetic society of agents reasons and adapts dynamically over an outbreak contact network. 
+  comparing synthetic agent behaviour against a no-intervention seir baseline and human participant data from the auib 
+  epigame study, we find that llm agents across four different architectures reduced peak active infections, with quarantine 
+  compliance peaking at 58-65% on day six of the 15-day simulation. a binomial generalised linear model showed that perceived 
+  health severity was the strongest predictor of quarantine behaviour ($\beta$=0.33,p=0.002), yielding a pseudo-r2 of 0.055, 
+  comparable to the 0.072 observed in the human trial. llm architecture is a key determinant of epidemic dynamics: 
+  low-variance architectures offer greater internal validity for testing behavioural rules, while high-variance 
+  models may better represent real-world decision-making. geographic labels alone do not induce culturally differentiated 
+  behaviour; explicit attitudinal parameterisation is required. this proof-of-principle work lays the groundwork for deploying 
+  the epi-llm framework as a scalable, risk-free simulation environment for pandemic preparedness research.
+</p>
+
+<hr>
+
+<p>
+  <a href="https://arxiv.org/abs/2606.02867">preprint</a> &nbsp;|&nbsp;
+  <a href="https://github.com/pferencz23/starsim">code</a>
+</p>
+
+<hr>
+
+<p><small>
+  <sup>*</sup> denoting equal contribution amongst authors.
+</small></p>
+
+<div id="site-footer"></div>
+<script>fetch('/footer.html').then(r=>r.text()).then(h=>document.getElementById('site-footer').innerHTML=h);</script>
+
+</body>
+</html>
