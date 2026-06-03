@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>gradient reversal made simple</title>
+</head>
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    }
+  };
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-chtml.min.js"></script>
+<body>
+
+<div id="site-header"></div>
+<script>fetch('/header.html').then(r=>r.text()).then(h=>document.getElementById('site-header').innerHTML=h);</script>
+
+<h1>domain adaption made simple</h1>
+<p><small>3 june 2026</small></p>
+
+<hr>
+
+<p>
+  making sure i stay sharp on my ml, i wanted to explore a topic which took ideas from gans (minmax modelling but being able to train models in a single backward pass) 
+  and made them easy to implement, good ml work which actually can be used.
+  the general question domain adaption is trying to solve is - can we learn representations which are invariant with respect
+  to shifts between the domains? for example, take a set of images some are natural and other synthetic we wish to learn image 
+  representations which are agnostic where the image itself comes from. this naturally can be extend to debiasing and addressing 
+  fariness and systematic biases in any dataset, the world of imaging still gives fruits to neat ideas. 
+</p>
+
+<div id="site-footer"></div>
+<script>fetch('/footer.html').then(r=>r.text()).then(h=>document.getElementById('site-footer').innerHTML=h);</script>
+
+</body>
+</html>
