@@ -34,11 +34,18 @@
 </p>
 
 <p>
-  general framework
+the architecture generally used in vanilla domain adaptation is the following. (1) we have
+a feature extractor, then we use these features $$f$$ to feed them into (2) a classifier for the downstream task
+and (3) a domain discriminator. the general idea is to move gradients of features in the opposite direction to
+"confuse" the discriminator, so features become domain invariant. this results in the 
+discriminator struggling predict the domain from the features of (1).
 </p>
 
 <p>
-  why its nice
+but how do we do this in practice? and this is where, in contrast to gans, it can be trained end-to-end,
+simply by stitching both architectures together and using the same features for both models. for (2) the
+loss is the usual, we take $$\mathcal{L}_{cls}$$ optimised via weights of (2), but for (3) it can be decomposed into 2
+losses $$\mathcal{L}_{dom}$$ and the total loss is $$\mathcal{L}_{total} = \mathcal{L}_{cls} - \lambda \mathcal{L}_{dom}$$
 </p>
 
 <p>
