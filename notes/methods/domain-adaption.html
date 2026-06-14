@@ -30,7 +30,8 @@
   the general question domain adaption is trying to solve is: can we learn representations which are invariant with respect
   to shifts between domains? for example, take a set of images some are natural and other synthetic we wish to learn 
   representations which are agnostic to where the image itself comes from. naturally one can extend these ideas to
-  address fariness and systematic biases in any dataset, the world of imaging still gives fruits to neat ideas. 
+  address fariness and systematic biases in any dataset, the world of imaging still gives fruits to neat ideas. this idea
+  was first introduced in 2015 in the paper "unsupervised domain adaptation by backpropagation"<sup>1</sup>.
 </p>
 
 <p>
@@ -76,6 +77,10 @@ $$
 at the saddle point, the key thing to notice is that in $\theta_{f}$ the features are push to minimise the classification loss while maximising the domain loss, in turn 
 creating domain invariant features.
 </p>
+
+<p><small>
+  <sup>1</sup>ganin y, lempitsky v. unsupervised domain adaptation by backpropagation. ininternational conference on machine learning 2015 Jun 1 (pp. 1180-1189). pmlr.
+</small></p>
 
 <div id="site-footer"></div>
 <script>fetch('/footer.html').then(r=>r.text()).then(h=>document.getElementById('site-footer').innerHTML=h);</script>
