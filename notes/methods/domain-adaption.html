@@ -77,7 +77,8 @@ $$
   $$
 
 at the saddle point, the key thing to notice is that in $\theta_{f}$ the features are push to minimise the classification loss while maximising the domain loss, in turn 
-creating domain invariant features.
+creating domain invariant features. also notice that $\max_{\theta_d} [ \mathcal{L}_{c} -\lambda \mathcal{L}_d] \equiv \max_{\theta_d} [-\lambda \mathcal{L}_d] \equiv \min_{\theta_d} \mathcal{L}_d$ so this is simply normal
+backpropagation (sweet trick).
 </p>
 
 <p><small>
