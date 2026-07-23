@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/style.css">
+<title>how does gpu accelerated xgboost actually work?</title>
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    }
+  };
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-chtml.min.js"></script>
+</head>
+<body style="max-width: 700px; margin: 0 auto; padding: 0 20px;">
+
+<div id="site-header"></div>
+<script>fetch('/header.html').then(r=>r.text()).then(h=>document.getElementById('site-header').innerHTML=h);</script>
+
+<h1>how does gpu accelerated xgboost actually work?</h1>
+<p><small>23 july 2026</small></p>
+
+<hr>
+
+<p>
+  obssed with not having to wait for my models to train and give decent performance out of the box xgboost is the 
+  holy grail. in most cases does a great job with minimum effort (two lines of code) and minimal hyperparamter tuning
+  when compared to any neural network. the xgboost library has recently * gicen cuda support with one line the 
+  magical device="cuda:0" we can just run on a gpu no questions asked.
+  however, due to the sequential of how xgboost works as it relies weak tress ``fixing the erros" of the pervious tress and then
+  added sequentially while weighiting incorrect targets more heavly and repeated for n number of steps. it raised the 
+  question of how and where is the gpu acceleration taking place? where are the advantages of parralaisation done since 
+  it cannot be as simple during model training as is with bagging (just train on all threads a tree and youre done simplified) 
+  and so set my expedtion of what is actually happening for boosting.
+</p>
+
+<p>
+let's recap how boosting works from a simple point of view, and what we're
+actually doing. we build shallow trees sequentially, each one fitted to the
+errors left over by the ensemble so far. Given a dataset
+$\{(x_i, y_i)\}_{i=1}^{n}$ with $x_i \in \mathbb{R}^d$, the model is additive,
+so our model at step $m$, written $F_m$, is updated as
+
+$$
+F_{m+1}(x_i) = F_m(x_i) + h_m(x_i) \approx y_i
+$$
+
+writing the residual of the current model as $r_i^{(m)} = y_i - F_m(x_i)$,
+each new learner is fitted to those residuals:
+
+$$
+h_m \;=\; \arg\min_{h \in \mathcal{F}} \sum_{i=1}^{n}
+\big(r_i^{(m)} - h(x_i)\big)^2
+$$
+
+so that $F_{m+1}$ corrects the errors of $F_m$. the update is approximate
+rather than exact because $h_m$ is drawn from a restricted class of shallow
+trees: it can only approximate the residual vector, never reproduce it.
+
+it's worth being precise about *why* the residual is the right target, rather
+than treating it as an obvious heuristic. take squared error as the
+per-example loss, and let $L$ be the empirical risk it sums to:
+
+$$
+l\big(y_i, F(x_i)\big) = \tfrac12\big(y_i - F(x_i)\big)^2,
+\qquad
+L(F) = \sum_{i=1}^{n} l\big(y_i, F(x_i)\big)
+$$
+
+since boosting updates predictions directly, we differentiate with respect to
+the prediction $F(x_i)$ itself rather than any model parameter:
+
+$$
+\frac{\partial L}{\partial F(x_i)} \;=\; -\big(y_i - F(x_i)\big) \;=\; -\,r_i^{(m)}
+$$
+
+so the residual is exactly the negative gradient of the loss with respect to
+the current prediction. fitting a tree to residuals is therefore not a
+heuristic, it is one step of steepest descent, taken in the space of
+predictions rather than the space of parameters.
+</p>
+
+<div id="site-footer"></div>
+<script>fetch('/footer.html').then(r=>r.text()).then(h=>document.getElementById('site-footer').innerHTML=h);</script>
+
+</body>
+</html>
