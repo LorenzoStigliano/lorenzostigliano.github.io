@@ -25,17 +25,17 @@
 
 <hr>
 
-<p>
-  obssed with not having to wait for my models to train and give decent performance out of the box xgboost is the 
-  holy grail. in most cases does a great job with minimum effort (two lines of code) and minimal hyperparamter tuning
-  when compared to any neural network. the xgboost library has recently * gicen cuda support with one line the 
-  magical device="cuda:0" we can just run on a gpu no questions asked.
-  however, due to the sequential of how xgboost works as it relies weak tress ``fixing the erros" of the pervious tress and then
-  added sequentially while weighiting incorrect targets more heavly and repeated for n number of steps. it raised the 
-  question of how and where is the gpu acceleration taking place? where are the advantages of parralaisation done since 
-  it cannot be as simple during model training as is with bagging (just train on all threads a tree and youre done simplified) 
-  and so set my expedtion of what is actually happening for boosting.
-</p>
+<p>obsessed with not having to wait for my models to train and give decent performance out of the box. 
+  xgboost is the holy grail. in most cases it does a great job with minimum effort (two lines of code) 
+  and minimal hyperparameter tuning when compared to any neural network. the xgboost library has recently 
+  given cuda support &mdash; with one line, the magical <code>device="cuda:0"</code>, we can just 
+  run on a gpu no questions asked. however, due to the sequential nature of how xgboost works, as 
+  it relies on weak trees "fixing the errors" of the previous trees which are then added sequentially 
+  while weighting incorrect targets more heavily, and repeated for n number of steps, 
+  it raised the question of how and where the gpu acceleration is taking place. 
+  where are the advantages of parallelisation, since it cannot be as simple 
+  during model training as it is with bagging (just train a tree on all threads and you're done, 
+  simplified)? and so it set my expectation of what is actually happening for boosting.</p>
 
 <p>
 let's recap how boosting works from a simple point of view, and what we're
