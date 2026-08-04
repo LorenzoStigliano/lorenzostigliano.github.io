@@ -4,42 +4,42 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="/style.css">
-<title>reproducible knowledge distillation for graph neural networks</title>
+<title>Reproducible Knowledge Distillation for Graph Neural Networks</title>
 </head>
 <body style="max-width: 700px; margin: 0 auto; padding: 0 20px;">
 
 <div id="site-header"></div>
 <script>fetch('/header.html').then(r=>r.text()).then(h=>document.getElementById('site-header').innerHTML=h);</script>
 
-<h2>reproducible knowledge distillation for graph neural networks</h2>
-<p><small>master&rsquo;s thesis, imperial college london, 2023</small></p>
-<p><small><b>l. stigliano</b>, i. rekik</small></p>
+<h2>Reproducible Knowledge Distillation for Graph Neural Networks</h2>
+<p><small>Master&rsquo;s thesis, Imperial College London, 2023</small></p>
+<p><small><b>L. Stigliano</b>, I. Rekik</small></p>
 
 <hr>
 
 <p>
-  graph neural networks (gnns) are powerful models for graph-structured data but face
+  Graph neural networks (GNNs) are powerful models for graph-structured data but face
   scalability challenges that hinder deployment in real-time and resource-constrained
-  settings, motivating the use of knowledge distillation on graphs (kdg) to compress
+  settings, motivating the use of knowledge distillation on graphs (KDG) to compress
   models while preserving performance; however, existing approaches largely overlook
   reproducibility, a key requirement for trustworthy model interpretation.
-  in this work, we introduce the concept of reproducible offline knowledge distillation
-  for gnns and show that standard kd and kdg methods often degrade reproducibility.
-  to address this, we propose reproducibility-aware knowledge distillation on graphs
-  (repkd), a two-stage framework that jointly trains multiple student models in a
+  In this work, we introduce the concept of reproducible offline knowledge distillation
+  for GNNs and show that standard KD and KDG methods often degrade reproducibility.
+  To address this, we propose reproducibility-aware knowledge distillation on graphs
+  (RepKD), a two-stage framework that jointly trains multiple student models in a
   one-to-many teacher&ndash;student setup and selects the most reproducible student.
-  across multiple datasets and gnn architectures, repkd improves self-reproducibility
+  Across multiple datasets and GNN architectures, RepKD improves self-reproducibility
   while maintaining predictive performance, achieving over 95% parameter reduction with
-  negligible memory overhead and comparable training times. we further explore the
+  negligible memory overhead and comparable training times. We further explore the
   interpretability of the resulting distilled models.
 </p>
 
 <hr>
 
 <p>
-  <a href="../files/thesis/grad_thesis.pdf">pdf</a> &nbsp;|&nbsp;
-  <a href="../files/thesis/grad_thesis_slides.pdf">slides</a> &nbsp;|&nbsp;
-  <a href="https://github.com/LorenzoStigliano/reproducible-kd-for-gnns">code</a>
+  <a href="../files/thesis/grad_thesis.pdf">PDF</a> &nbsp;|&nbsp;
+  <a href="../files/thesis/grad_thesis_slides.pdf">Slides</a> &nbsp;|&nbsp;
+  <a href="https://github.com/LorenzoStigliano/reproducible-kd-for-gnns">Code</a>
 </p>
 
 <div id="site-footer"></div>

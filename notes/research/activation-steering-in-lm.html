@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="/style.css">
-<title>what is activation steering in language models?</title>
+<title>What is activation steering in language models?</title>
 <script>
   window.MathJax = {
     tex: {
@@ -20,28 +20,28 @@
 <div id="site-header"></div>
 <script>fetch('/header.html').then(r=>r.text()).then(h=>document.getElementById('site-header').innerHTML=h);</script>
 
-<h1>what is activation steering in language models?</h1>
-<p><small>29 may 2026</small></p>
+<h1>What is activation steering in language models?</h1>
+<p><small>29 May 2026</small></p>
 
 <hr>
 
 <p>
-  recently i have come across the concept of activation steering in language models<sup>1</sup> and find the idea quite elegant. 
-  it offers a more principled approach to model alignment than
-  "prompt engineering" and more cost effective than fine tuning a billion parameter model (realistically only for big tech and deep pockets... finance).
-  the idea, although hidden behind the usual superfluous jargon of any ml paper, is quite simple. 
-  suppose you want to align a text with a sentiment (talk in a happy tone), 
-  topic (change the location of place) or remove toxicity from text. you would simply pick (yes you have to think) "opposing pairs" of free text, such as the canonical example of "love" and "hate", do a full forward pass on your favorite lm, and then take 
-  the difference of layer $\ell$'s activations for both free texts to find the "love" - "hate" vector. the idea is that the difference removes noise, positional artefacts, and/or simple encoding that tell us that this is a word and leaves
-  the direction of where these two free texts differ, the axis we care about. this is the steering vector. whats nice is that we can evaluate this for any layer (and is a hyperparameter which is tuned),
-  and move texts in the direction we want for free (no backward pass) and in a systematic way. effectively analogous to the word2vec embedding example: <code>king - man + woman = queen</code> where we can move 
+  Recently I have come across the concept of activation steering in language models<sup>1</sup>, and I find the idea quite elegant.
+  It offers a more principled approach to model alignment than
+  &ldquo;prompt engineering&rdquo;, and one more cost effective than fine-tuning a billion-parameter model (realistically only for big tech and deep pockets... finance).
+  The idea, although hidden behind the usual superfluous jargon of any ML paper, is quite simple.
+  Suppose you want to align a text with a sentiment (talk in a happy tone) or a
+  topic (change the location of a place), or remove toxicity from text. You would simply pick (yes, you have to think) &ldquo;opposing pairs&rdquo; of free text, such as the canonical example of &ldquo;love&rdquo; and &ldquo;hate&rdquo;, do a full forward pass on your favourite LM, and then take
+  the difference of layer $\ell$&rsquo;s activations for both free texts to find the &ldquo;love&rdquo; &minus; &ldquo;hate&rdquo; vector. The idea is that the difference removes noise, positional artefacts, and/or the simple encoding that tells us this is a word, and leaves
+  the direction in which these two free texts differ: the axis we care about. This is the steering vector. What is nice is that we can evaluate this for any layer (which is a hyperparameter to be tuned),
+  and move texts in the direction we want for free (no backward pass) and in a systematic way. It is effectively analogous to the word2vec embedding example, <code>king - man + woman = queen</code>: where there we can move
   in the space of words, here we can move beyond words and steer free text in any direction we want.
 </p>
 
 <hr>
 
 <p><small>
-  <sup>1</sup>a. m. turner, et al. "steering language models with activation engineering." arxiv preprint arxiv:2308.10248 (2023).
+  <sup>1</sup> A. M. Turner, et al. &ldquo;Steering Language Models with Activation Engineering.&rdquo; arXiv preprint arXiv:2308.10248 (2023).
 </small></p>
 
 <div id="site-footer"></div>

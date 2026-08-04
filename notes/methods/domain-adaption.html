@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="/style.css">
-<title>gradient reversal made simple</title>
+<title>Domain adaptation made simple</title>
 </head>
 <script>
   window.MathJax = {
@@ -20,42 +20,42 @@
 <div id="site-header"></div>
 <script>fetch('/header.html').then(r=>r.text()).then(h=>document.getElementById('site-header').innerHTML=h);</script>
 
-<h1>domain adaption made simple</h1>
-<p><small>3 june 2026</small></p>
+<h1>Domain adaptation made simple</h1>
+<p><small>3 June 2026</small></p>
 
 <hr>
 
 <p>
-  making sure i stay sharp on my ml, i wanted to explore a topic which took ideas from gans (minmax modelling but being able to train models in a single backward pass) 
-  and made them easy to implement, good ml work which actually can be used.
-  the general question domain adaption is trying to solve is: can we learn representations which are invariant with respect
-  to shifts between domains? for example, take a set of images some are natural and other synthetic we wish to learn 
-  representations which are agnostic to where the image itself comes from. naturally one can extend these ideas to
-  address fariness and systematic biases in any dataset, the world of imaging still gives fruits to neat ideas. this idea
-  was first introduced in 2015 in the paper "unsupervised domain adaptation by backpropagation"<sup>1</sup>.
+  To make sure I stay sharp on my ML, I wanted to explore a topic that took ideas from GANs (minmax modelling, but being able to train models in a single backward pass)
+  and made them easy to implement: good ML work which can actually be used.
+  The general question domain adaptation is trying to solve is: can we learn representations which are invariant with respect
+  to shifts between domains? For example, take a set of images, some natural and others synthetic; we wish to learn
+  representations which are agnostic to where the image itself comes from. Naturally, one can extend these ideas to
+  address fairness and systematic biases in any dataset &ndash; the world of imaging still bears fruit for neat ideas. This idea
+  was first introduced in 2015 in the paper &ldquo;Unsupervised Domain Adaptation by Backpropagation&rdquo;<sup>1</sup>.
 </p>
 
 <p>
-the architecture generally used in vanilla domain adaptation is the following. (1) we have
-a feature extractor $\theta_{f}$, then we use these features $\textbf{f}=\theta_{f}(\textbf{x})$ to feed them into (2) a classifier for the downstream task
-$\theta_{c}$ and (3) a domain discriminator $\theta_{d}$. the general idea is to move gradients of features in the opposite direction to
-"confuse" the discriminator, so features become domain invariant. this results in the 
-discriminator struggling predict the domain from the features of (1). 
+The architecture generally used in vanilla domain adaptation is the following. (1) We have
+a feature extractor $\theta_{f}$, then we use these features $\textbf{f}=\theta_{f}(\textbf{x})$ to feed them into (2) a classifier for the downstream task,
+$\theta_{c}$, and (3) a domain discriminator, $\theta_{d}$. The general idea is to move gradients of features in the opposite direction to
+&ldquo;confuse&rdquo; the discriminator, so that features become domain invariant. This results in the
+discriminator struggling to predict the domain from the features of (1).
 </p>
 
 <p>
-but how do we do this in practice? and this is where, in contrast to gans, it can be trained end-to-end,
-simply by stitching both architectures together and using the same features for both models. for (2) the
-loss is $\mathcal{L}_{c}(\theta_{f}, \theta_{c})$ and $\mathcal{L}_{d}(\theta_{f}, \theta_{d})$ where
-$\mathcal{L}_{c}(\cdot, \cdot)$ is the loss for label prediction and  $\mathcal{L}_{d}(\cdot, \cdot)$  
-is the loss for the domain classification, putting this together we get a joint loss where we are both minimising 
-the classificsation loss and maximising the discirmating loss via negation:
+But how do we do this in practice? This is where, in contrast to GANs, it can be trained end-to-end,
+simply by stitching both architectures together and using the same features for both models. For (2) the
+loss is $\mathcal{L}_{c}(\theta_{f}, \theta_{c})$, and for (3) it is $\mathcal{L}_{d}(\theta_{f}, \theta_{d})$, where
+$\mathcal{L}_{c}(\cdot, \cdot)$ is the loss for label prediction and $\mathcal{L}_{d}(\cdot, \cdot)$
+is the loss for the domain classification. Putting this together, we get a joint loss where we are both minimising
+the classification loss and maximising the discriminating loss via negation:
 
 $$
 E = \sum_{i=1}^{n} \left[ \mathcal{L}_{c}(\theta_{f}, \theta_{c}; x_i) - \lambda \, \mathcal{L}_{d}(\theta_{f}, \theta_{d}; x_i) \right]
 $$
 
-as a result, in order to find optimal parameters they seek to optmise $\hat{\theta}_{f}, \hat{\theta}_{d}, \hat{\theta}_{c}$ via:
+As a result, in order to find optimal parameters, they seek to optimise $\hat{\theta}_{f}, \hat{\theta}_{d}, \hat{\theta}_{c}$ via:
 
 $$
 (\hat{\theta}_{f}, \hat{\theta}_{c}) = \arg\min_{\theta_{f},\, \theta_{c}} \; E(\theta_{f}, \theta_{c}, \hat{\theta}_{d})
@@ -65,7 +65,7 @@ $$
 \hat{\theta}_{d} = \arg\max_{\theta_{d}} \; E(\hat{\theta}_{f}, \hat{\theta}_{c}, \theta_{d})
 $$
 
-  as a result, we can simply do gradient descent in the following fashion to update all parameters in the correct direction:
+  As a result, we can simply do gradient descent in the following fashion to update all parameters in the correct direction:
 
   $$
   \theta_{f} \leftarrow \theta_{f} - \mu \left( \frac{\partial \mathcal{L}^i_c}{\partial \theta_{f}} - \lambda \frac{\partial \mathcal{L}^i_d}{\partial \theta_{f}} \right)
@@ -77,13 +77,13 @@ $$
   \theta_{d} \leftarrow \theta_{d} - \mu \frac{\partial \mathcal{L}^i_d}{\partial \theta_{d}}
   $$
 
-at the saddle point, the key thing to notice is that in $\theta_{f}$ the features are push to minimise the classification loss while maximising the domain loss, in turn 
-creating domain invariant features. also notice that $\max_{\theta_d} [ \mathcal{L}_{c} -\lambda \mathcal{L}_d] \equiv \max_{\theta_d} [-\lambda \mathcal{L}_d] \equiv \min_{\theta_d} \mathcal{L}_d$ so this is simply normal
-backpropagation (sweet trick).
+At the saddle point, the key thing to notice is that in $\theta_{f}$ the features are pushed to minimise the classification loss while maximising the domain loss, in turn
+creating domain invariant features. Also notice that $\max_{\theta_d} [ \mathcal{L}_{c} -\lambda \mathcal{L}_d] \equiv \max_{\theta_d} [-\lambda \mathcal{L}_d] \equiv \min_{\theta_d} \mathcal{L}_d$, so this is simply normal
+backpropagation (a sweet trick).
 </p>
 
 <p><small>
-  <sup>1</sup>ganin y, lempitsky v. unsupervised domain adaptation by backpropagation. ininternational conference on machine learning 2015 Jun 1 (pp. 1180-1189). pmlr.
+  <sup>1</sup> Ganin Y., Lempitsky V. Unsupervised Domain Adaptation by Backpropagation. In: International Conference on Machine Learning, 1 June 2015 (pp. 1180&ndash;1189). PMLR.
 </small></p>
 
 <div id="site-footer"></div>
