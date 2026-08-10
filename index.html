@@ -4,6 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css">
 <title>Lorenzo Stigliano</title>
 </head>
 <body style="max-width: 700px; margin: 0 auto; padding: 0 20px;">
@@ -11,7 +13,35 @@
 <div id="site-header"></div>
 <script>fetch('/header.html').then(r=>r.text()).then(h=>document.getElementById('site-header').innerHTML=h);</script>
 
-<h1>Lorenzo Stigliano</h1>
+<div style="display: flex; align-items: flex-start; gap: 32px; flex-wrap: wrap;">
+  <img src="files/pictures/headshot.jpg" alt="Lorenzo Stigliano" style="width: 180px; flex-shrink: 0;">
+  <div>
+    <h1 style="margin-top: 0; margin-bottom: 4px;">Lorenzo Stigliano</h1>
+    <p style="margin: 0 0 8px;">DPhil candidate, University of Oxford</p>
+    <p style="margin: 0 0 8px;"><small>lorenzo.stigliano [at] bnc.ox.ac.uk</small></p>
+    <p style="display: flex; align-items: center; gap: 16px; margin: 0; font-size: 22px;">
+      <a href="https://scholar.google.com/citations?user=zYrufZkAAAAJ&hl=en" title="Google Scholar" aria-label="Google Scholar" style="color: black;">
+        <i class="ai ai-google-scholar" aria-hidden="true"></i>
+      </a>
+      <a href="https://github.com/lorenzostigliano" title="GitHub" aria-label="GitHub" style="color: black;">
+        <i class="fa fa-github" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/lorenzo-stigliano-001644182" title="LinkedIn" aria-label="LinkedIn" style="color: black;">
+        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+      </a>
+      <a href="https://orcid.org/0009-0001-9344-8212" title="ORCID" aria-label="ORCID" style="color: black;">
+        <i class="ai ai-orcid" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.bdi.ox.ac.uk/Team/lorenzo-stigliano" title="Academic profile" aria-label="Academic profile" style="color: black;">
+        <i class="fa fa-university" aria-hidden="true"></i>
+      </a>
+    </p>
+  </div>
+</div>
+
+<hr>
+
+<h2>About me</h2>
 
 <p>
   I am a DPhil candidate at the <a href="https://www.ox.ac.uk/">University of Oxford</a>,
@@ -42,12 +72,12 @@ respect the organising principles underlying living systems, and are therefore
 better suited to scientific discovery.
 </p>
 
-<h3>Preprints</h3>
+<h3>Publications</h3>
 
 <ul>
   <li>
-  <b><a href="research/epi-llm-framework.html">Epi-LLM: Probing LLM Behavioural Priors Through Epidemiological Agent-Based Models</a></b><br>
-  <small>P. Ferencz<sup>*</sup>, A. Keeling<sup>*</sup>, T. O&rsquo;Keefe<sup>*</sup>, <b>L. Stigliano</b><sup>*</sup>, F. Di Lauro, A. Colubri, J. Panovska-Griffiths &nbsp;|&nbsp; arXiv, 2026</small>
+  <b><a href="https://arxiv.org/abs/2606.02867">Epi-LLM: Probing LLM Behavioural Priors Through Epidemiological Agent-Based Models</a></b><br>
+  <small>P. Ferencz<sup>*</sup>, A. Keeling<sup>*</sup>, T. O&rsquo;Keefe<sup>*</sup>, <b>L. Stigliano</b><sup>*</sup>, F. Di Lauro, A. Colubri, J. Panovska-Griffiths &nbsp;|&nbsp; arXiv (preprint), 2026</small>
   </li>
 </ul>
 
@@ -55,17 +85,17 @@ better suited to scientific discovery.
 
 <ul>
   <li>
-    <b><a href="research/grad-thesis.html">Reproducible Knowledge Distillation for Graph Neural Networks</a></b><br>
+    <b><a href="files/thesis/grad_thesis.pdf">Reproducible Knowledge Distillation for Graph Neural Networks</a></b><br>
     <small><b>L. Stigliano</b>, I. Rekik  &nbsp;|&nbsp; Master&rsquo;s thesis, Imperial College London, 2023</small>
   </li>
   <li>
-    <b><a href="research/undergrad-thesis.html">Introduction to Inverse Problems and Markov Chain Monte Carlo Methods</a></b><br>
+    <b><a href="files/thesis/undergrad_thesis.pdf">Introduction to Inverse Problems and Markov Chain Monte Carlo Methods</a></b><br>
     <small><b>L. Stigliano</b>, A. Teckentrup &nbsp;|&nbsp; Bachelor&rsquo;s thesis, University of Edinburgh, 2021</small>
   </li>
 </ul>
 
 <p><small>
-  <sup>*</sup> Denotes equal contribution amongst authors.
+  <sup>*</sup> denotes equal contribution.
 </small></p>
 
 <hr>
@@ -76,13 +106,6 @@ better suited to scientific discovery.
 I am always keen to collaborate with researchers working on machine
 learning and its applications to biology and other high-impact domains.
 Please feel free to get in touch if you are interested in working with me!
-</p>
-
-<p>
-  <a href="https://scholar.google.com/citations?user=zYrufZkAAAAJ&hl=en">Google Scholar</a> &nbsp;|&nbsp;
-  <a href="https://github.com/lorenzostigliano">GitHub</a> &nbsp;|&nbsp;
-  <a href="https://www.linkedin.com/in/lorenzo-stigliano-001644182">LinkedIn</a> &nbsp;|&nbsp;
-  <a href="https://www.bdi.ox.ac.uk/Team/lorenzo-stigliano">Academic profile</a>
 </p>
 
 <div id="site-footer"></div>
