@@ -19,8 +19,12 @@ a:visited {
 @media (max-width: 480px) {
   .profile-header {
     justify-content: center;
+    text-align: center;
   }
   .profile-info {
-    width: 180px;
+    width: 100%;
+  }
+  .profile-info p[style*="flex"] {
+    justify-content: center;
   }
 }
