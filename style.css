@@ -8,3 +8,19 @@ a:link,
 a:visited {
   color: #0645ad;
 }
+
+.profile-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 480px) {
+  .profile-header {
+    justify-content: center;
+  }
+  .profile-info {
+    width: 180px;
+  }
+}

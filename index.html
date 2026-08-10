@@ -13,9 +13,9 @@
 <div id="site-header"></div>
 <script>fetch('/header.html').then(r=>r.text()).then(h=>document.getElementById('site-header').innerHTML=h);</script>
 
-<div style="display: flex; align-items: flex-start; gap: 32px; flex-wrap: wrap;">
+<div class="profile-header">
   <img src="files/pictures/headshot.jpg" alt="Lorenzo Stigliano" style="width: 180px; flex-shrink: 0;">
-  <div>
+  <div class="profile-info">
     <h1 style="margin-top: 0; margin-bottom: 4px;">Lorenzo Stigliano</h1>
     <p style="margin: 0 0 8px;">DPhil candidate, University of Oxford</p>
     <p style="margin: 0 0 8px;"><small>lorenzo.stigliano [at] bnc.ox.ac.uk</small></p>
