@@ -1,6 +1,6 @@
 body {
   font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Baskerville, Georgia, serif;
-  font-size: clamp(1.05rem, 1.45vw, 1.2rem);
+  font-size: 1rem;
   line-height: 1.45;
   color: #2c2a23;
   text-rendering: optimizeLegibility;
